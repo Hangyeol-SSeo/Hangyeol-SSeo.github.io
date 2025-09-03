@@ -66,39 +66,51 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: 성균관대학교 창의혁신 DNA 산학협력 프로젝트 & 공학페스티벌
+        link: http://www.e2festa.kr/
+        link_text: 공학페스티벌
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/Hangyeol-SSeo/Companion-Plant-App
         quote: >
-          Short overview of the project (optional)
+          라즈베리파이를 활용한 반려식물 교감 시스템
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - 2023 가천대학교 창의적 종합설계 경진대회 <mark>금상</mark>
+          - 2023 창의혁신 DNA 산학협력 팀 프로젝트 <mark>은상</mark>
+          - 2023 성균관대 컨소시엄 창의적 종합설계 경진대회 <mark>은상</mark> 
+          
+          라즈베리파이와 android를 사용하여 반려 식물의 상태를 파악하고 교감을 도와주는 프로젝트를 진행했습니다.
+          
+          온도, 습도, 조도 등 다양한 센서들을 통해 스마트폰 앱에서 **식물의 상태를 파악**할 수 있고, 화분 전면 디스플레이로도 식물의 상태(더움, 추움, 수분 부족, 좋음 등)를 나타내어 **식물이 실제로 감정을 표현하는 느낌으로 구현**했습니다.
+          
+          전용 화분에는 **카메라**가 있어 사람이 다가오거나 특정 행동을 취하면 디스플레이가 바뀌며 **식물과 상호작용하는 느낌**을 주었습니다.
+          또한 카메라로 **qr코드를 읽혀 스마트폰과 화분(식물)을 연결**할 수 있습니다.
+          
+          openCV를 사용하여 안면 인식 시스템을 구현, python으로 라즈베리파이에 백엔드 서버를 구축하여 데이터 수집과 전송을 구현했습니다.
+
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-        # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Naver Cafe Video Downloader
+        link: https://chromewebstore.google.com/detail/navercafe-video-downloade/glclhpipfpfammoflcfnknnlddkgpdoe
+        link_text: Chrome Web Store
         additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/Hangyeol-SSeo/NaverCafe-VideoDownloader
         quote: >
-          Short overview of the project (optional)
+          네이버 카페의 동영상을 쉽게 다운로드 할 수 있는 확장프로그램
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - <mark>WAU(주간 사용자) 18000</mark> 
+          - <mark>평점 4.94(17개)</mark>
+          
+          기존 개발자 도구(f12)를 사용하여 번거롭고 귀찮게 네이버 카페에 올라온 동영상을 다운받아야만 하는 문제를 확장 프로그램으로 해결했습니다.
+          
+          한 게시물에 있는 모든 동영상을 원하는 화질을 선택하여 다운로드 할 수 있도록 구현하였습니다. 또한 탭별로 독립적으로 작동하도록 만들었습니다.
+          
+          Vanilla Javascript로 작성하였으며 추가적인 라이브러리 없이 네이버 api와 네트워크만을 분석하여 구현했습니다.
+
   - title: Experience
     layout: list
     content:
