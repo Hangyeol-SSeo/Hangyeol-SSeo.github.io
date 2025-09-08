@@ -181,6 +181,28 @@ content:
           
           부전공: 창업대학 스타트업칼리지(2023.09 ~ 2024.12)
 
+  - title: Skills
+    layout: text
+    content: |
+      - Front-end:
+        - HTML
+        - CSS
+          - SASS, SCSS, Tailwindcss, Styled-components
+        - Javascript, Typescript
+          - React, React-Native
+      - Back-end:
+        - Node.js(Express)
+        - Java
+          - SpringBoot
+        - AWS Lambda
+      - Database:
+        - MySQL, AWS DynamoDB, AWS Aurora
+      - Data:
+        - GTM, GA4
+        - Mixpanel
+        - Datadog
+        - Meta pixel
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
