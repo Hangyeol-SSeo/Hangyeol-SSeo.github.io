@@ -115,25 +115,72 @@ content:
     layout: list
     content:
       - layout: left
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: APRO - 조기축구 실력 맞춤 매칭 플랫폼
+        sub_title: Co-Founder
+        caption: 2023.11 ~ 2024.07
+        #link:
         quote: >
-          Short description of the company (optional)
+          조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 2024 <mark>안산대학교 아이디어사업화 지원사업 선정</mark>
+          
+          ### 진행했던 작업들
+          
+          아이디어 발굴 및 검증
+          
+          현장에 나가 직접 고객과 인터뷰, 피드백 수렴
+          
+          사업계획서 작성
+
+      - layout: left
+        title: 북블라(BookBla)
+        sub_title: 소프트웨어 엔지니어
+        caption: 2024.08 ~ 2025.09
+        link: https://www.bookbla.com/
+        quote: >
+          책을 통해 가치관을 표현하고, 가치관을 보고 진중한 만남을 도와주는 서비스
+        description: | # this will include new lines to allow paragraphs
+          - <mark>시드투자 1억원</mark> - 코코네 one
+          - <mark>MAU 1000 이상</mark>
+          - <mark>KBS/EBS</mark> 뉴스 방영
+          - <mark>학생창업유망팀 300+</mark> 선정
+          - <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
+          
+          ### 진행했던 작업들
+          
+          Sendbird, Datadog, firebase(GA4), Mixpanel, Meta pixel등 **SaaS 도입**
+          
+          EAS, Sendbird의 foreground, background **알림 헨들링**
+          
+          React-Native를 이용한 **Android & iOS 인앱 결제** 구현 - 소모품, 구독 상품
+          
+          유저별 **상태 체크**, 상태에 따른 **페이지 분기 처리** 구현
+          
+          **JWT 인증** 구현(accessToken, refreshToken)
+          
+          **EAS update(code push) 구현** 및 업데이트 화면 제작
+          
+          앱 로딩 시 **스켈레톤 로딩** & **스피너 로딩** 처리
+          
+          AWS Lambda를 사용한 **서버리스 아키텍처**로 UTM 링크 로깅 시스템 구현
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: right
+        title: 가천대학교
+        sub_title: AI•소프트웨어학부(소프트웨어전공)
+        caption: 2019.03 ~ 2026.02(예정)
+        #quote: >
+        # 소프트웨어전공 졸업
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          - <mark>취득학점: 145/120</mark>
+          - <mark>전체성적: 3.98/4.5</mark>
+          
+          주전공: AI•소프트웨어학부(소프트웨어전공)
+          
+          부전공: 창업대학 스타트업칼리지(2023.09 ~ 2024.12)
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
