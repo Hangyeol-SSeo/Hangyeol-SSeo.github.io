@@ -187,9 +187,10 @@ content:
       - Front-end:
         - HTML
         - CSS
-          - SASS, SCSS, Tailwindcss, Styled-components
+          - SCSS, Tailwindcss, Styled-components
         - Javascript, Typescript
           - React, React-Native
+        - EAS(Expo Application Services)
       - Back-end:
         - Node.js(Express)
         - Java
@@ -202,6 +203,13 @@ content:
         - Mixpanel
         - Datadog
         - Meta pixel
+      - Tools:
+        - Jira & Confluence
+        - Git
+        - Figma
+        - Slack
+        - Claude Code
+        - InteillJ
 
   - title: A Little More About Me
     layout: text
