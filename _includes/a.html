@@ -1,2 +1,3 @@
 {% assign protocol = include.href | strip | slice: 0, 4 %}
-<a href="{% if protocol != 'http' %}//{% endif %}{{ include.href }}" target="_blank" class="{{ include.class }}">
+{% assign first_char = include.href | strip | slice: 0, 1 %}
+<a href="{% if protocol != 'http' and first_char != '/' %}//{% endif %}{{ include.href }}" {% if protocol == 'http' or first_char != '/' %}target="_blank"{% endif %} class="{{ include.class }}">

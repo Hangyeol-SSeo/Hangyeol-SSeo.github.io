@@ -69,9 +69,12 @@ content:
         # border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
         title: 성균관대학교 창의혁신 DNA 산학협력 프로젝트 & 공학페스티벌
-        link: http://www.e2festa.kr/
-        link_text: 공학페스티벌
+        link: /projects/companion-plant/
+        link_text: 프로젝트 세부 정보 →
         additional_links:
+          - title: 공학페스티벌
+            icon: fas fa-globe
+            url: http://www.e2festa.kr/
           - title: Github
             icon: fab fa-github
             url: https://github.com/Hangyeol-SSeo/Companion-Plant-App
@@ -93,9 +96,12 @@ content:
 
       - layout: left
         title: Naver Cafe Video Downloader
-        link: https://chromewebstore.google.com/detail/navercafe-video-downloade/glclhpipfpfammoflcfnknnlddkgpdoe
-        link_text: Chrome Web Store
+        link: /projects/naver-cafe-downloader/
+        link_text: 프로젝트 세부 정보 →
         additional_links:
+          - title: Chrome Web Store
+            icon: fab fa-chrome
+            url: https://chromewebstore.google.com/detail/navercafe-video-downloade/glclhpipfpfammoflcfnknnlddkgpdoe
           - title: Github
             icon: fab fa-github
             url: https://github.com/Hangyeol-SSeo/NaverCafe-VideoDownloader
@@ -111,6 +117,18 @@ content:
           
           Vanilla Javascript로 작성하였으며 추가적인 라이브러리 없이 네이버 api와 네트워크만을 분석하여 구현했습니다.
 
+      - layout: left
+        title: 1minute
+        link: /projects/1minute/
+        link_text: 프로젝트 세부 정보 →
+        quote: >
+          HRV / MWS 검사를 통해 고객의 상태를 측정하고 분석하여, 마음 건강을 챙겨주는 AI assistant 앱
+        description: | # this will include new lines to allow paragraphs
+          - <mark>외주 개발</mark>
+          - <mark>대기업 직원들 대상 초기 오픈 예정</mark>
+
+          React Native 기반 크로스 플랫폼 모바일 앱으로 개발 중이며, HRV 측정과 AI 어시스턴트를 통한 개인 맞춤형 마음 건강 케어 서비스를 제공합니다.
+
   - title: Experience
     layout: list
     content:
@@ -118,7 +136,8 @@ content:
         title: APRO - 조기축구 실력 맞춤 매칭 플랫폼
         sub_title: Co-Founder
         caption: 2023.11 ~ 2024.07
-        #link:
+        link: /experience/apro/
+        link_text: 상세 내용 →
         quote: >
           조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
         description: | # this will include new lines to allow paragraphs
@@ -136,7 +155,12 @@ content:
         title: 북블라(BookBla)
         sub_title: 소프트웨어 엔지니어
         caption: 2024.08 ~ 2025.09
-        link: https://www.bookbla.com/
+        link: /experience/bookbla/
+        link_text: 상세 내용 →
+        additional_links:
+          - title: 북블라 웹사이트
+            icon: fas fa-globe
+            url: https://www.bookbla.com/
         quote: >
           책을 통해 가치관을 표현하고, 가치관을 보고 진중한 만남을 도와주는 서비스
         description: | # this will include new lines to allow paragraphs
