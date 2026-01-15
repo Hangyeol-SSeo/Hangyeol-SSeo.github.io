@@ -198,6 +198,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - <mark>WAU(주간 사용자) 18000</mark> 
           - <mark>평점 4.94(17개)</mark>
+          - <mark>github Star 5개</mark>
           
           기존 개발자 도구(f12)를 사용하여 번거롭고 귀찮게 네이버 카페에 올라온 동영상을 다운받아야만 하는 문제를 확장 프로그램으로 해결했습니다.
           
@@ -244,13 +245,13 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      대학교에서 부전공으로 창업학에 대해 배우고 난 뒤, 학생 창업으로 창업이라는 새로운 세계에서 성장해나가고 있습니다.
+      대학교에서 부전공으로 창업학에 대해 배우고 난 뒤, 학생 창업으로 창업이라는 새로운 세계에서 성장해왔습니다.
       
-      개발적으로 견고하고 코드가 깔끔한 코드를 지향하기 보다는, 빠르고 오류 없이 비용이 최대한 적은 방식을 고려하여 설계하고 여러 번의 테스트를 통해 고객이 원하는 제품을 만들어 내는 일을 지향합니다.
+      개발적으로 깔끔하고 예술적인 코드를 지향하기 보다는, 빠르고 오류 없이 비용이 최대한 적은 방식을 고려하여 설계하고 여러 번의 테스트를 통해 고객이 원하는 제품을 만들어 내는 일을 지향합니다.
       
-      AI 도구들을 열린 사고방식으로 활용하는 것을 좋아합니다. claude code, codex(chatGPT), gemini 등 여러 AI들을 비교해가며 사용하며 그때그때 성능이 좋은 것을 사용합니다. mcp, v0, perplexity 등 파생 툴들도 신속하게 받아들이고 사용합니다. 
+      AI 도구들을 열린 사고방식으로 활용하는 것을 좋아합니다. claude code, codex(chatGPT), gemini 등 여러 AI들을 비교해가며 사용하며 그때그때 성능이 좋은 것을 사용합니다. mcp, v0, opencode 등 파생 툴들도 신속하게 받아들이고 사용합니다. 
       
-      한가지 언어에만 얽매이지 않고 필요하다면 다른 언어 혹은 프레임워크를 적극적으로 활용하는 자세를 지향합니다.
+      한가지 언어에만 얽매이지 않고 필요하다면 다른 언어 혹은 프레임워크를 적극적으로 활용하려고 노력합니다.
 
 # Footer
 footer_show_references: true
