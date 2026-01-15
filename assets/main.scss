@@ -26,3 +26,10 @@ a.link {
     text-decoration: none;
   }
 }
+
+// 좌측 정보(title, sub_title 등)를 상단 정렬 (데스크톱만)
+@media screen and (min-width: 768px) {
+  .layout .details {
+    justify-content: flex-start;
+  }
+}

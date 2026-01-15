@@ -68,16 +68,21 @@ content:
       - layout: left
         title: 1minute
         sub_title: 프론트엔드 개발자(Web + React Native)
-        caption: 2025.12 ~ 진행중(2026.04 종료예정)
+        caption: 2025.12 ~ 진행중
         link: /projects/1minute/
         link_text: 상세 정보 →
         quote: >
           HRV / MWS 검사를 통해 고객의 상태를 측정하고 분석하여, 마음 건강을 챙겨주는 AI assistant 앱
         description: | # this will include new lines to allow paragraphs
-          - <mark>외주 개발</mark>
           - <mark>대기업 직원들 대상 초기 오픈 예정</mark>
 
-          React Native 기반 크로스 플랫폼 모바일 앱으로 개발 중이며, HRV 측정과 AI 어시스턴트를 통한 개인 맞춤형 마음 건강 케어 서비스를 제공합니다.
+          ### 진행했던 작업들
+          
+          Web - React Native webview간 **bridge 통신** 구현
+          
+          EAS(Expo Application Service) build 자동화 구축
+          
+          **생체인증** (iOS Face id, Android 지문 인증) 구현
 
       - layout: left
         title: 북블라(BookBla)
@@ -137,6 +142,8 @@ content:
           현장에 나가 직접 고객과 인터뷰, 피드백 수렴
 
           사업계획서 작성
+          
+          React + Node.js 웹 어플리케이션 구축
 
   - title: Projects - Individual/Team
     layout: list # Type of content section (list/text)
