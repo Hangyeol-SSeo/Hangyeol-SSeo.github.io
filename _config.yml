@@ -156,8 +156,8 @@ content:
         title: 성균관대학교 창의혁신 DNA 산학협력 프로젝트 & 공학페스티벌
         sub_title: 팀 프로젝트
         caption: 2023.06 ~ 2023.11
-        link: /projects/companion-plant/
-        link_text: 프로젝트 세부 정보 →
+#        link: /projects/companion-plant/
+#        link_text: 프로젝트 세부 정보 →
         additional_links:
           - title: 공학페스티벌
             icon: fas fa-globe
@@ -184,8 +184,8 @@ content:
       - layout: left
         title: Naver Cafe Video Downloader
         sub_title: 개인 프로젝트
-        link: /projects/naver-cafe-downloader/
-        link_text: 프로젝트 세부 정보 →
+#        link: /projects/naver-cafe-downloader/
+#        link_text: 프로젝트 세부 정보 →
         additional_links:
           - title: Chrome Web Store
             icon: fab fa-chrome
