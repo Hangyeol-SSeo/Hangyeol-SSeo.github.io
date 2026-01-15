@@ -62,13 +62,91 @@ about_content: | # this will include new lines to allow paragraphs
   고객과 소통하여 pain point를 파악하고, 어떤 기능의 필요성을 스스로 동기부여하고 개발할 때 즐거움을 느낍니다. 
 
 content:
-  - title: Projects # Title for the section
+  - title: Experience - Software Engineer
+    layout: list
+    content:
+      - layout: left
+        title: 1minute
+        sub_title: 프론트엔드 개발자(Web + React Native)
+        caption: 2025.12 ~ 진행중(2026.04 종료예정)
+        link: /projects/1minute/
+        link_text: 상세 정보 →
+        quote: >
+          HRV / MWS 검사를 통해 고객의 상태를 측정하고 분석하여, 마음 건강을 챙겨주는 AI assistant 앱
+        description: | # this will include new lines to allow paragraphs
+          - <mark>외주 개발</mark>
+          - <mark>대기업 직원들 대상 초기 오픈 예정</mark>
+
+          React Native 기반 크로스 플랫폼 모바일 앱으로 개발 중이며, HRV 측정과 AI 어시스턴트를 통한 개인 맞춤형 마음 건강 케어 서비스를 제공합니다.
+
+      - layout: left
+        title: 북블라(BookBla)
+        sub_title: 소프트웨어 엔지니어
+        caption: 2024.08 ~ 2025.09
+        link: /experience/bookbla/
+        link_text: 상세 정보 →
+        additional_links:
+          - title: 북블라 웹사이트
+            icon: fas fa-globe
+            url: https://www.bookbla.com/
+        quote: >
+          책을 통해 가치관을 표현하고, 가치관을 보고 진중한 만남을 도와주는 서비스
+        description: | # this will include new lines to allow paragraphs
+          - <mark>시드투자 1억원</mark> - 코코네 one
+          - <mark>MAU 1000 이상</mark>
+          - <mark>KBS/EBS</mark> 뉴스 방영
+          - <mark>학생창업유망팀 300+</mark> 선정
+          - <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
+
+          ### 진행했던 작업들
+
+          Sendbird, Datadog, firebase(GA4), Mixpanel, Meta pixel등 **SaaS 도입**
+
+          EAS, Sendbird의 foreground, background **알림 헨들링**
+
+          React-Native를 이용한 **Android & iOS 인앱 결제** 구현 - 소모품, 구독 상품
+
+          유저별 **상태 체크**, 상태에 따른 **페이지 분기 처리** 구현
+
+          **JWT 인증** 구현(accessToken, refreshToken)
+
+          **EAS update(code push) 구현** 및 업데이트 화면 제작
+
+          앱 로딩 시 **스켈레톤 로딩** & **스피너 로딩** 처리
+
+          AWS Lambda를 사용한 **서버리스 아키텍처**로 UTM 링크 로깅 시스템 구현
+
+  - title: Experience - Entrepreneurship
+    layout: list
+    content:
+      - layout: left
+        title: APRO - 조기축구 실력 맞춤 매칭 플랫폼
+        sub_title: Co-Founder
+        caption: 2023.11 ~ 2024.07
+        link: /experience/apro/
+        link_text: 상세 정보 →
+        quote: >
+          조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
+        description: | # this will include new lines to allow paragraphs
+          - 2024 <mark>안산대학교 아이디어사업화 지원사업 선정</mark>
+
+          ### 진행했던 작업들
+
+          아이디어 발굴 및 검증
+
+          현장에 나가 직접 고객과 인터뷰, 피드백 수렴
+
+          사업계획서 작성
+
+  - title: Projects - Individual/Team
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         # border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
         title: 성균관대학교 창의혁신 DNA 산학협력 프로젝트 & 공학페스티벌
+        sub_title: 팀 프로젝트
+        caption: 2023.06 ~ 2023.11
         link: /projects/companion-plant/
         link_text: 프로젝트 세부 정보 →
         additional_links:
@@ -96,6 +174,7 @@ content:
 
       - layout: left
         title: Naver Cafe Video Downloader
+        sub_title: 개인 프로젝트
         link: /projects/naver-cafe-downloader/
         link_text: 프로젝트 세부 정보 →
         additional_links:
@@ -116,94 +195,6 @@ content:
           한 게시물에 있는 모든 동영상을 원하는 화질을 선택하여 다운로드 할 수 있도록 구현하였습니다. 또한 탭별로 독립적으로 작동하도록 만들었습니다.
           
           Vanilla Javascript로 작성하였으며 추가적인 라이브러리 없이 네이버 api와 네트워크만을 분석하여 구현했습니다.
-
-      - layout: left
-        title: 1minute
-        link: /projects/1minute/
-        link_text: 프로젝트 세부 정보 →
-        quote: >
-          HRV / MWS 검사를 통해 고객의 상태를 측정하고 분석하여, 마음 건강을 챙겨주는 AI assistant 앱
-        description: | # this will include new lines to allow paragraphs
-          - <mark>외주 개발</mark>
-          - <mark>대기업 직원들 대상 초기 오픈 예정</mark>
-
-          React Native 기반 크로스 플랫폼 모바일 앱으로 개발 중이며, HRV 측정과 AI 어시스턴트를 통한 개인 맞춤형 마음 건강 케어 서비스를 제공합니다.
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: APRO - 조기축구 실력 맞춤 매칭 플랫폼
-        sub_title: Co-Founder
-        caption: 2023.11 ~ 2024.07
-        link: /experience/apro/
-        link_text: 상세 내용 →
-        quote: >
-          조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
-        description: | # this will include new lines to allow paragraphs
-          - 2024 <mark>안산대학교 아이디어사업화 지원사업 선정</mark>
-          
-          ### 진행했던 작업들
-          
-          아이디어 발굴 및 검증
-          
-          현장에 나가 직접 고객과 인터뷰, 피드백 수렴
-          
-          사업계획서 작성
-
-      - layout: left
-        title: 북블라(BookBla)
-        sub_title: 소프트웨어 엔지니어
-        caption: 2024.08 ~ 2025.09
-        link: /experience/bookbla/
-        link_text: 상세 내용 →
-        additional_links:
-          - title: 북블라 웹사이트
-            icon: fas fa-globe
-            url: https://www.bookbla.com/
-        quote: >
-          책을 통해 가치관을 표현하고, 가치관을 보고 진중한 만남을 도와주는 서비스
-        description: | # this will include new lines to allow paragraphs
-          - <mark>시드투자 1억원</mark> - 코코네 one
-          - <mark>MAU 1000 이상</mark>
-          - <mark>KBS/EBS</mark> 뉴스 방영
-          - <mark>학생창업유망팀 300+</mark> 선정
-          - <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
-          
-          ### 진행했던 작업들
-          
-          Sendbird, Datadog, firebase(GA4), Mixpanel, Meta pixel등 **SaaS 도입**
-          
-          EAS, Sendbird의 foreground, background **알림 헨들링**
-          
-          React-Native를 이용한 **Android & iOS 인앱 결제** 구현 - 소모품, 구독 상품
-          
-          유저별 **상태 체크**, 상태에 따른 **페이지 분기 처리** 구현
-          
-          **JWT 인증** 구현(accessToken, refreshToken)
-          
-          **EAS update(code push) 구현** 및 업데이트 화면 제작
-          
-          앱 로딩 시 **스켈레톤 로딩** & **스피너 로딩** 처리
-          
-          AWS Lambda를 사용한 **서버리스 아키텍처**로 UTM 링크 로깅 시스템 구현
-
-  - title: Education
-    layout: list
-    content:
-      - layout: right
-        title: 가천대학교
-        sub_title: AI•소프트웨어학부(소프트웨어전공)
-        caption: 2019.03 ~ 2026.02(예정)
-        #quote: >
-        # 소프트웨어전공 졸업
-        description: | # this will include new lines to allow paragraphs
-          - <mark>취득학점: 145/120</mark>
-          - <mark>전체성적: 3.98/4.5</mark>
-          
-          주전공: AI•소프트웨어학부(소프트웨어전공)
-          
-          부전공: 창업대학 스타트업칼리지(2023.09 ~ 2024.12)
 
   - title: Skills
     layout: text
@@ -234,6 +225,41 @@ content:
         - Slack
         - Claude Code
         - InteillJ
+
+  - title: Education
+    layout: list
+    content:
+      - layout: right
+        title: 가천대학교
+        sub_title: AI•소프트웨어학부(소프트웨어전공)
+        caption: 2019.03 ~ 2026.02(예정)
+        #quote: >
+        # 소프트웨어전공 졸업
+        description: | # this will include new lines to allow paragraphs
+          - <mark>취득학점: 145/120</mark>
+          - <mark>전체성적: 3.98/4.5</mark>
+          
+          주전공: AI•소프트웨어학부(소프트웨어전공)
+          
+          부전공: 창업대학 스타트업칼리지(2023.09 ~ 2024.12)
+
+  - title: Certification
+    layout: text
+    content: |
+      - <mark>영어 TOEIC 840</mark><br/>
+        취득년월: 2026.01
+      
+      - <mark>일본어 JLPT N2</mark><br/>
+        취득년월: 2023.01
+      
+      - <mark>운전면허 1종 보통</mark><br/>
+        취득년월: 2024.03
+      
+      - <mark>전산회계 1급</mark><br/>
+        취득년월: 2020.09
+      
+      - <mark>육군 병장 만기전역</mark><br/>
+        복무일: 2021.02 ~ 2022.07
 
   - title: A Little More About Me
     layout: text

@@ -13,8 +13,8 @@ a.link {
   color: #fff !important;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: 500;
-  font-size: 0.95rem;
+  font-weight: 500 !important;
+  font-style: normal !important;
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 
@@ -22,7 +22,7 @@ a.link {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
     background: linear-gradient(135deg, #868f96 20%, #596164 80%);
-    color: #fff !important;
+    color: #000 !important;
     text-decoration: none;
   }
 }
