@@ -53,8 +53,11 @@ permalink: /experience/bookbla/
 - <mark>시드 투자 1억원 유치 (코코네 one)</mark>
 - <mark>KBS, EBS 뉴스 방영</mark>
 - <mark>MAU 1,000명 달성</mark>
-- <mark>일 평균 매칭 성사율 30% 달성(수락한 엽서/보낸 엽서)</mark>
-- <mark>Day 7 리텐션 45% / Day 30 리텐션 30%</mark>
+- <mark>월 매출 300만원 달성</mark>
+- <mark>학생창업유망팀 300+</mark> 선정
+- <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
+- <mark>일 평균 매칭 성사율 30% 달성</mark>(수락한 엽서/보낸 엽서)
+- <mark>Day 7 리텐션 45%</mark> / <mark>Day 30 리텐션 30%</mark>
 - <mark>평균 ARPPU 8000원</mark>
 
 <br/>
