@@ -15,12 +15,11 @@ permalink: /experience/bookbla/
 <h1 style="font-size: 2.8rem; margin-bottom:8px">서비스 기획 동기</h1>
 
 <p>
-현재도 진행중이지만 미래에는 더욱 더 많은 사람들이 인터넷을 통해 사람을 만나는 시대가 올 거라고 생각합니다.
-하지만 지금 대부분의 앱들은 다른 사람의 외모만 보여주고 단기적인 만남을 위해 사용됩니다.
+현재도 진행 중이지만 미래에는 더욱더 많은 사람이 인터넷을 통해 사람을 만나는 시대가 올 거라고 생각합니다.
+하지만 지금 대부분의 앱은 다른 사람의 외모만 보여주고 단기적인 만남을 위해 사용됩니다.
 <br/>
-그래서 인터넷 상에서도 외모만 보는게 아닌, 타인의 가치관과 여러 요소들을 보고 진중한 만남을 할 수 있지 않을까? 라는 생각에서 출발했습니다.
-그것을 제일 잘 해결해줄 수 있는 매게체가 '책'이라고 생각했고, 책을 통해 가치관을 이끌어내는 진중한 매칭 서비스를 만들었습니다.
-책 뿐만 아니라 본인을 잘 나타낼 수 있는 영화, 드라마도 추가하여 서비스를 확장했습니다.
+그래서 인터넷상에서도 외모만 보는 게 아닌, 타인의 가치관과 여러 요소를 보고 진중한 만남을 할 수 있지 않을까? 라는 생각에서 출발했습니다.
+그것을 제일 잘 해결해 줄 수 있는 매개체가 '책'이라고 생각했고, 책을 통해 가치관을 끌어내는 진중한 매칭 서비스를 만들었습니다.
 </p>
 
 <br/>
@@ -50,25 +49,13 @@ permalink: /experience/bookbla/
 
 ---
 
-<h1 style="font-size: 2.8rem; margin-bottom:8px">팀&역할</h1>
-
-<div style="display: flex; gap: 20px; margin: 20px 0;">
-  <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; font-size: medium">
-    <h3 style="margin-top: 0;">팀 구성</h3>
-    <p style="color: #666; font-size: large">팀원 7명</p>
-    - CEO <br/>
-    - PM <br/>
-    - 마케팅 <br/>
-    - 디자인 <br/>
-    - 개발 3 (Front 2 / Back 1) <br/>
-  </div>
-  <div style="flex: 1; background: #e3f2fd; padding: 20px; border-radius: 8px; font-size: medium">
-    <h3 style="margin-top: 0;">나의 역할</h3>
-    <p style="color: #666; font-size: large">프론트엔드 개발</p>
-    - React Native 프론트엔드 개발 <br/>
-    - 서비스 기획 <br/>
-  </div>
-</div>
+<h1 style="font-size: 2.8rem; margin-bottom:8px">주요 성과</h1>
+- <mark>시드 투자 1억원 유치 (코코네 one)</mark>
+- <mark>KBS, EBS 뉴스 방영</mark>
+- <mark>MAU 1,000명 달성</mark>
+- <mark>일 평균 매칭 성사율 30% 달성(수락한 엽서/보낸 엽서)</mark>
+- <mark>Day 7 리텐션 45% / Day 30 리텐션 30%</mark>
+- <mark>평균 ARPPU 8000원</mark>
 
 <br/>
 
@@ -79,28 +66,34 @@ permalink: /experience/bookbla/
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
     <h3 style="margin-top: 0;">📌 책 등록</h3>
-    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <p style="color: #666;">유저가 자신의 가치관을 표현할 책을 선택하여 감상문과 함께 서재에 등록</p>
     <ul>
-      <li>세부 기능 1</li>
-      <li>세부 기능 2</li>
+      <li>알라딘 도서 API를 사용하여 구현</li>
+      <li>주어진 질문중에 하나를 선택하여 감상문 작성</li>
+      <li>AI 감상문 기능 제공. AI 감상문 도입으로 책 등록률 10% 이상 증가</li>
+      <li>등록한 책에 기반하여 매칭 알고리즘 동작</li>
     </ul>
   </div>
 
   <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
     <h3 style="margin-top: 0;">📌 채팅</h3>
-    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <p style="color: #666;">Sendbird 기반 실시간 채팅으로 매칭된 상대와 소통</p>
     <ul>
-      <li>세부 기능 1</li>
-      <li>세부 기능 2</li>
+      <li>엽서(매칭요청) 수락 시 1:1 채팅룸 자동 생성 및 읽음/안읽음 표시</li>
+      <li>이미지, 책 정보 공유 기능</li>
+      <li>Push 알림 (foreground/background 분리 처리)</li>
+      <li>부적절한 대화 신고 기능</li>
+      <li>모임 채팅방 통해 같은 관심사 가진 유저들와 소통</li>
     </ul>
   </div>
 
   <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
     <h3 style="margin-top: 0;">📌 엽서 보내기/받기</h3>
-    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <p style="color: #666;">관심 있는 상대방에게 엽서를 보내 매칭</p>
     <ul>
-      <li>세부 기능 1</li>
-      <li>세부 기능 2</li>
+      <li>책의 어떤 내용이 인상깊었는지 인사말과 함께 엽서 전송</li>
+      <li>엽서를 수락해야만 채팅방 생성</li>
+      <li>우편함에 엽서를 최대 5일까지 보관 가능</li>
     </ul>
   </div>
 </div>
@@ -221,6 +214,30 @@ permalink: /experience/bookbla/
   협업을 위해 milestone을 만들어 sprint 기간동안 해야 할 기능들을 정리하고 <br/>
   kanban board를 활용하여 다른 팀원들과 업무를 분담, 현재 상태를 공유함. <br/>
   또한 Daily scrum을 진행하여 그날 서로 할 일을 공유하고 good & new를 이야기하며 하루를 시작함 <br/>
+</div>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">팀&역할</h1>
+
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; font-size: medium">
+    <h3 style="margin-top: 0;">팀 구성</h3>
+    <p style="color: #666; font-size: large">팀원 7명</p>
+    - CEO <br/>
+    - PM <br/>
+    - 마케팅 <br/>
+    - 디자인 <br/>
+    - 개발 3 (Front 2 / Back 1) <br/>
+  </div>
+  <div style="flex: 1; background: #e3f2fd; padding: 20px; border-radius: 8px; font-size: medium">
+    <h3 style="margin-top: 0;">나의 역할</h3>
+    <p style="color: #666; font-size: large">프론트엔드 개발</p>
+    - React Native 프론트엔드 개발 <br/>
+    - 서비스 기획 <br/>
+  </div>
 </div>
 
 <br/>
