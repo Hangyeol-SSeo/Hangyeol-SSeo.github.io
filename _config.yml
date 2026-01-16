@@ -54,21 +54,63 @@ about_profile_image: images/profile-image.jpeg
 about_content: | # this will include new lines to allow paragraphs
   지난 2년간 학생 창업을 시작으로 2개의 스타트업에서 개발자로 일하며 MAU 1000명 이상의 서비스를 운영해 본 경험이 있는 연쇄 창업가입니다.
   
-  JavaScript를 기반으로 한 프레임워크들을 활용하여 React, React-Native로 웹 & 앱 프론트엔드를 구축해 본 경험이 있으며, Node.js로 백엔드까지 end-to-end 서비스를 스스로 배포한 경험이 있습니다.
+  JavaScript를 기반으로 한 프레임워크들을 활용하여 웹 & 앱 프론트엔드를 구축해 본 경험이 있으며, 
+  Google-Analytics, Mixpanel, Datadog등을 활용하여 데이터를 수집, 분석하고 이를 활용해 필요한 지표들을 개선했습니다.
   
-  또한 구축한 서비스에 Google-Analytics, Mixpanel, Datadog등을 활용하여 데이터를 수집, 분석하고 이를 활용해 필요한 지표들을 개선하고, KPI를 충족하기 위한 새로운 아이디어를 내고 기능 구현을 도맡아 했습니다.
-  
-  항상 비즈니스를 우선시하며, 어떻게 하면 고객의 니즈를 파악하고 그것을 어떻게 해결할지 고민하는 것을 좋아하는 개발자입니다.
-  고객과 소통하여 pain point를 파악하고, 어떤 기능의 필요성을 스스로 동기부여하고 개발할 때 즐거움을 느낍니다. 
+  항상 비즈니스를 우선시하며, 고객의 니즈를 파악하고 그것을 어떻게 해결할지 고민하는 것을 좋아하는 개발자입니다.
+  데이터를 기반으로 KPI를 개선하고, 고객과 소통하여 pain point를 찾아내 필요한 기능을 스스로 동기부여 하며 개발할 때 가장 큰 즐거움을 느낍니다. 
+
 
 content:
   - title: Experience - Software Engineer
     layout: list
     content:
       - layout: left
+        title: 북블라(BookBla)
+        sub_title: 소프트웨어 엔지니어
+        caption: 2024.08 ~ 2025.09
+        link: /experience/bookbla/
+        link_text: 상세 정보 →
+#        additional_links:
+#          - title: 북블라 웹사이트
+#            icon: fas fa-globe
+#            url: https://www.bookbla.com/
+        quote: >
+          책을 통해 가치관을 표현하고, 가치관을 통해 진중한 만남을 도와주는 서비스
+        description: | # this will include new lines to allow paragraphs
+          - <mark>시드투자 1억원</mark> - 코코네 one
+          - <mark>MAU 1000명 이상, 월간 매출 300만원 이상 달성</mark>
+          - <mark>KBS/EBS</mark> 뉴스 방영
+          - <mark>학생창업유망팀 300+</mark> 선정
+          - <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
+
+          ### 주요 업무
+
+          *Sendbird*, *Datadog*, *firebase(GA4)*, *Mixpanel*, *Meta pixel*등 **SaaS 도입** <br/>
+          → Datadog Funnel Analysis & Mixpanel 활용하여 가입 이탈 개선, **가입 전환률 30% -> 65%로 개선**
+          
+          **EAS update(code push) 구현** 및 업데이트 옵션 세분화 <br/>
+          → build & 심사 과정 **3~4일** -> 배포까지 **10분**으로 단축
+        
+          EAS, Sendbird의 **foreground**, **background** **알림 핸들링**
+          
+          **Expo SDK version migration** 작업
+          
+          **JWT 인증**, **자동 로그인** 구현 <br/>
+          → 자동 로그인 기능 개발 후 **이탈률 5% 개선**
+
+          React-Native를 이용한 **Android & iOS 인앱 결제** 구현 - **소모품**, **구독 상품**
+          
+          Native navigation 스택 구성 및 이동 구현
+
+          **서버리스 마케팅 어트리뷰션 시스템** 구축 <br/>
+          → **AWS Lambda + API Gateway** 기반 UTM 파라미터 자동 수집 시스템 개발 <br/>
+          → 마케팅 채널별 전환률 대시보드 구축으로 **광고 효율 개선에 기여**
+
+      - layout: left
         title: 1minute
         sub_title: 프론트엔드 개발자(Web + React Native)
-        caption: 2025.12 ~ 진행중
+        caption: 2025.12 ~
         link: /experience/1minute/
         link_text: 상세 정보 →
         quote: >
@@ -76,52 +118,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           - <mark>삼성전자 직원들 대상 초기 오픈 예정</mark>
 
-          ### 진행했던 작업들
+          ### 주요 업무
           
           Web - React Native webview간 **bridge 통신** 구현
           
           EAS(Expo Application Service) build 자동화 구축
           
           **생체인증** (iOS Face id, Android 지문 인증) 구현
-
-      - layout: left
-        title: 북블라(BookBla)
-        sub_title: 소프트웨어 엔지니어
-        caption: 2024.08 ~ 2025.09
-        link: /experience/bookbla/
-        link_text: 상세 정보 →
-        additional_links:
-          - title: 북블라 웹사이트
-            icon: fas fa-globe
-            url: https://www.bookbla.com/
-        quote: >
-          책을 통해 가치관을 표현하고, 가치관을 통해 진중한 만남을 도와주는 서비스
-        description: | # this will include new lines to allow paragraphs
-          - <mark>시드투자 1억원</mark> - 코코네 one
-          - <mark>MAU 1000 이상</mark>
-          - <mark>KBS/EBS</mark> 뉴스 방영
-          - <mark>학생창업유망팀 300+</mark> 선정
-          - <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
-
-          ### 진행했던 작업들
-
-          *Sendbird*, *Datadog*, *firebase(GA4)*, *Mixpanel*, *Meta pixel*등 **SaaS 도입**
-
-          EAS, Sendbird의 foreground, background **알림 핸들링**
-          
-          **Expo SDK version migration** 작업
-
-          React-Native를 이용한 **Android & iOS 인앱 결제** 구현 - **소모품**, **구독 상품**
-          
-          Native navigation 스택 구성 및 이동 구현
-
-          **JWT 인증** 구현
-
-          **EAS update(code push) 구현** 및 업데이트 옵션 세분화
-
-          앱 로딩 시 **스켈레톤 로딩** & **스피너 로딩** 처리
-
-          AWS Lambda를 사용한 **서버리스 아키텍처**로 UTM 링크 로깅 시스템 구현
 
   - title: Experience - Entrepreneurship
     layout: list
@@ -137,7 +140,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 2024 <mark>안산대학교 아이디어사업화 지원사업 선정</mark>
 
-          ### 진행했던 작업들
+          ### 주요 업무
 
           아이디어 발굴 및 검증
 
@@ -202,7 +205,7 @@ content:
           
           기존 개발자 도구(f12)를 사용하여 번거롭고 귀찮게 네이버 카페에 올라온 동영상을 다운받아야만 하는 문제를 확장 프로그램으로 해결했습니다.
           
-          한 게시물에 있는 모든 동영상을 원하는 화질을 선택하여 다운로드 할 수 있도록 구현하였습니다. 또한 탭별로 독립적으로 작동하도록 만들었습니다.
+          한 게시물에 있는 모든 동영상을 원하는 화질을 선택하여 다운로드 할 수 있도록 구현하였습니다. 또한 탭마다 독립적으로 작동하도록 만들었습니다.
           
           Vanilla Javascript로 작성하였으며 추가적인 라이브러리 없이 네이버 api와 네트워크만을 분석하여 구현했습니다.
 
