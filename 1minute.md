@@ -1,84 +1,136 @@
 ---
 layout: page
-title: 1minute - AI 마음 건강 케어 앱
-permalink: /projects/1minute/
+title: 1minute
+permalink: /experience/1minute/
 ---
 
-# 1minute
-
-> HRV / MWS 검사를 통해 고객의 상태를 측정하고 분석하여, 마음 건강을 챙겨주는 AI assistant 앱
-
-## 프로젝트 개요
-
-1minute는 사용자의 심박변이도(HRV)와 마음 건강 점수(MWS)를 측정하여 스트레스 상태를 분석하고,
-AI 어시스턴트가 개인 맞춤형 마음 건강 케어를 제공하는 모바일 애플리케이션입니다.
-
-## 프로젝트 현황
-
-- **개발 방식**: 외주 개발
-- **런칭 계획**: 대기업 직원들 대상 초기 오픈 예정
-- **개발 상태**: 개발 중
-
-## 기술 스택
-
-### Frontend
-- **React Native** - 크로스 플랫폼 모바일 앱 개발
-- **TypeScript** - 타입 안정성
-
-### Backend
-- **Node.js** - 백엔드 서버
-- **AI/ML** - 건강 데이터 분석 및 AI 어시스턴트
-
-### 헬스케어 기술
-- **HRV (Heart Rate Variability)** - 심박변이도 측정
-- **MWS (Mental Wellness Score)** - 마음 건강 점수 산출
-
-## 주요 기능 (예정)
-
-### 1. 건강 상태 측정
-- **HRV 측정**: 스마트폰 카메라를 통한 심박 측정
-- **MWS 분석**: 종합적인 마음 건강 점수 산출
-- **실시간 모니터링**: 일일 건강 상태 추적
-
-### 2. AI 어시스턴트
-- **개인 맞춤형 상담**: 측정 데이터 기반 AI 상담
-- **스트레스 관리 팁**: 상태에 맞는 조언 제공
-- **일일 체크인**: 정기적인 건강 확인
-
-### 3. 데이터 시각화
-- **건강 리포트**: 일/주/월별 건강 변화 추이
-- **인사이트 제공**: 패턴 분석 및 개선 방향 제시
-
-### 4. 기업 복지 연동
-- **임직원 건강 관리**: 대기업 복지 프로그램 연동
-- **단체 건강 모니터링**: 조직 차원의 건강 관리
-
-## 기대 효과
-
-### 개인
-- 일상적인 스트레스 관리
-- 마음 건강에 대한 인식 증가
-- 데이터 기반 자기 관리
-
-### 기업
-- 임직원 복지 향상
-- 업무 스트레스 감소
-- 생산성 향상
-
-## 타겟 사용자
-
-- 대기업 임직원
-- 스트레스 관리가 필요한 직장인
-- 마음 건강에 관심 있는 일반인
-
-## 개발 진행 상황
-
-현재 외주 개발로 진행 중이며, 대기업 직원들을 대상으로 한 파일럿 테스트를 준비하고 있습니다.
+<div style="margin-top: 20px; margin-bottom: 40px;">
+  <h1 style="margin-bottom: 10px;">1minute</h1>
+  <p style="font-size: 1.6rem; color: #333; margin-bottom: 8px;">책을 통해 가치관을 표현하고, 가치관을 보고 진중한 만남을 도와주는 서비스</p>
+  <p style="font-size: 1.6rem; color: #333; margin-bottom: 20px;">2025.12 ~ 진행중 | 프론트엔드 개발자</p>
+</div>
 
 ---
 
-**주의**: 이 프로젝트는 현재 개발 중이며, 상세 정보는 정식 출시 후 업데이트될 예정입니다.
+<h1 style="font-size: 2.8rem; margin-bottom:8px">서비스 설명</h1>
+
+<!-- 서비스 설명 삽입 -->
+
+<br/>
 
 ---
 
-[← 프로젝트 목록으로 돌아가기](/#projects)
+<h1 style="font-size: 2.8rem; margin-bottom:8px">팀&역할</h1>
+
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; font-size: medium">
+    <h3 style="margin-top: 0;">팀 구성</h3>
+    <p style="color: #666; font-size: large">팀원 8명</p>
+    - PM <br/>
+    - 디자인 <br/>
+    - 백엔드 1 <br/>
+    - 인프라 1 <br/>
+    - 프론트엔드 4 <br/>
+  </div>
+  <div style="flex: 1; background: #e3f2fd; padding: 20px; border-radius: 8px; font-size: medium">
+    <h3 style="margin-top: 0;">나의 역할</h3>
+    <p style="color: #666; font-size: large">프론트엔드 개발</p>
+    - React Native + React 프론트엔드 개발 <br/>
+    - Apple connect store, Google play console 세팅 <br/>
+    - Expo Modules API 도입(Swift, Kotlin) <br/>
+    - Native bridge 구현 <br/>
+  </div>
+</div>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">핵심 기능</h1>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+  <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
+    <h3 style="margin-top: 0;">📌 HRV / MWS 검사</h3>
+    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <ul>
+      <li>세부 기능 1</li>
+      <li>세부 기능 2</li>
+    </ul>
+  </div>
+
+  <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
+    <h3 style="margin-top: 0;">📌 AI 상담</h3>
+    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <ul>
+      <li>세부 기능 1</li>
+      <li>세부 기능 2</li>
+    </ul>
+  </div>
+
+  <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
+    <h3 style="margin-top: 0;">📌 마음건강 컨텐츠 시청</h3>
+    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <ul>
+      <li>세부 기능 1</li>
+      <li>세부 기능 2</li>
+    </ul>
+  </div>
+</div>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">🛠️ Tech Stack</h1>
+
+<table style="width: 100%; border-collapse: collapse; font-size: medium">
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd; width: 30%;">Frontend</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      TypeScript, React-Native, React+Vite, Expo, Husky, firebase hosting
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd;">Backend</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      SpringBoot, GKE(Google Kubernetes Engine)
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd;">Database</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      Mysql
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd;">Tools</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      Jira, Confluence, Figma, Slack
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">🌱 역경과 성장</h1>
+<!--
+지문, face id
+webview
+-->
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">제목</h2>
+  <b>문제</b>:  <br/>
+  <b>원인</b>:  <br/>
+  <b>해결</b>:  <br/>
+  <b>교훈</b>:  <br/>
+</div>
+
+<br/>
+
+---
+
+<div style="text-align: center; margin-top: 60px;">
+  <a href="/" style="display: inline-block; font-size: medium; padding: 12px 30px; background: #333; color: white; text-decoration: none; border-radius: 6px; transition: all 0.3s;">이력서 홈으로 돌아가기</a>
+</div>
