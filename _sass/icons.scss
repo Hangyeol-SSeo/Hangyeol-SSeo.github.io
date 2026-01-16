@@ -52,3 +52,37 @@ ul.icons a {
     color: #e6e6e6;
   }
 }
+
+// additional_links 아이콘 스타일
+.aditional-links {
+  a {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+
+  i {
+    font-size: 24px;
+    color: #555;
+    //display: block;
+    //line-height: 1;
+  }
+}
+
+.dark .aditional-links {
+  a {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  i {
+    color: #ccc;
+  }
+}
