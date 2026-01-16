@@ -1,300 +1,232 @@
 ---
 layout: page
-title: 북블라(BookBla) - 소프트웨어 엔지니어
+title: Bookbla
 permalink: /experience/bookbla/
 ---
 
-# 북블라(BookBla)
-
-> 책을 통해 가치관을 표현하고, 가치관을 보고 진중한 만남을 도와주는 서비스
-
-[![Website](https://img.shields.io/badge/Website-bookbla.com-blue?style=flat-square)](https://www.bookbla.com/)
-
-**직책**: 소프트웨어 엔지니어
-**기간**: 2024.08 ~ 2025.09
-
-## 서비스 개요
-
-북블라는 책을 통해 사용자의 가치관을 표현하고, 비슷한 가치관을 가진 사람들을 매칭해주는 소셜 데이팅 서비스입니다.
-단순한 외모나 프로필이 아닌, 독서 취향과 가치관을 기반으로 더 깊이 있는 만남을 추구합니다.
-
-## 성과
-
-- **시드 투자 1억원** - 코코네 one
-- **MAU 1,000명 이상**
-- **KBS/EBS 뉴스 방영**
-- **학생창업유망팀 300+ 선정**
-- **NextRise 2024 참가** - 모의투자 2등
-
-## 기술 스택
-
-### Frontend
-- **React Native** - 크로스 플랫폼 모바일 앱 개발
-- **TypeScript** - 타입 안정성
-- **EAS (Expo Application Services)** - 빌드 및 배포
-
-### Backend
-- **Node.js** - 백엔드 서버
-- **AWS Lambda** - 서버리스 아키텍처
-
-### Database
-- **MySQL** - 메인 데이터베이스
-- **AWS Aurora** - 프로덕션 데이터베이스
-
-### Third-party Services
-- **Sendbird** - 실시간 채팅
-- **Firebase (GA4)** - 앱 분석
-- **Mixpanel** - 사용자 행동 분석
-- **Datadog** - 모니터링 및 로깅
-- **Meta Pixel** - 광고 트래킹
-
-### Payment
-- **Google Play In-App Billing** - Android 인앱 결제
-- **Apple StoreKit** - iOS 인앱 결제
-
-## 주요 담당 업무
-
-### 1. SaaS 도입 및 통합
-
-여러 SaaS 서비스를 도입하여 개발 속도를 높이고 서비스 품질을 향상시켰습니다.
-
-#### Sendbird (실시간 채팅)
-```typescript
-// Sendbird SDK 통합
-// 채팅방 생성, 메시지 전송, 읽음 표시 등 구현
-```
-- 1:1 채팅 기능 구현
-- 읽음/안읽음 표시
-- 푸시 알림 연동
-
-#### Datadog (모니터링)
-- 앱 크래시 모니터링
-- 에러 트래킹
-- 성능 모니터링
-
-#### Firebase Analytics (GA4)
-- 사용자 행동 분석
-- 이벤트 트래킹
-- 퍼널 분석
-
-#### Mixpanel
-- 사용자 세그먼트 분석
-- A/B 테스트 결과 분석
-- 리텐션 분석
-
-#### Meta Pixel
-- 광고 성과 측정
-- 리타게팅 설정
-
-### 2. 푸시 알림 시스템 구축
-
-EAS와 Sendbird의 푸시 알림을 통합하여 다양한 상황에서 사용자에게 알림을 전달했습니다.
-
-#### Foreground Notification
-```typescript
-// 앱이 실행 중일 때 알림 처리
-// 인앱 알림 UI 표시
-```
-
-#### Background Notification
-```typescript
-// 앱이 백그라운드일 때 알림 처리
-// OS 푸시 알림 표시
-```
-
-**구현한 알림 종류:**
-- 새로운 매칭 알림
-- 메시지 수신 알림
-- 좋아요 알림
-- 프로모션 알림
-
-### 3. 인앱 결제 시스템 구현
-
-React Native에서 Android와 iOS의 인앱 결제를 모두 구현했습니다.
-
-#### 상품 유형
-- **소모품**: 하트, 부스트 등
-- **구독**: 프리미엄 멤버십
-
-#### 구현 내용
-```typescript
-// react-native-iap 라이브러리 사용
-// 상품 조회, 구매, 영수증 검증 구현
-```
-
-- Google Play 인앱 결제 연동
-- Apple StoreKit 연동
-- 영수증 서버 검증
-- 구매 복원 기능
-- 환불 처리
-
-### 4. 사용자 상태 관리 시스템
-
-유저의 다양한 상태를 체크하고 그에 따른 페이지 분기 처리를 구현했습니다.
-
-#### 사용자 상태 종류
-- 신규 가입 (온보딩 필요)
-- 프로필 미완성
-- 대기 중 (매칭 대기)
-- 매칭됨
-- 구독 활성화
-- 일시 정지
-- 차단/정지
-
-#### 상태별 화면 분기
-```typescript
-// 상태에 따라 다른 화면 렌더링
-// Navigation guard 구현
-```
-
-### 5. JWT 인증 시스템
-
-보안성 높은 인증 시스템을 구현했습니다.
-
-#### Access Token & Refresh Token
-```typescript
-// Access Token: 짧은 유효기간 (15분)
-// Refresh Token: 긴 유효기간 (30일)
-// 자동 토큰 갱신 로직
-```
-
-**구현 기능:**
-- 로그인/로그아웃
-- 자동 토큰 갱신
-- 토큰 만료 처리
-- 보안 저장소(Keychain/Keystore) 활용
-
-### 6. EAS Update (Code Push) 구현
-
-앱스토어 심사 없이 JavaScript 번들을 업데이트할 수 있는 기능을 구현했습니다.
-
-#### 구현 내용
-```typescript
-// expo-updates 라이브러리 활용
-// 앱 시작 시 업데이트 확인
-// 다운로드 및 적용
-```
-
-- 버전 체크 로직
-- 업데이트 다운로드 UI
-- 업데이트 적용 후 재시작
-- 업데이트 롤백 기능
-
-**효과:**
-- 긴급 버그 수정 시 즉시 배포 가능
-- 앱스토어 심사 시간 절약
-- 사용자가 최신 버전을 빠르게 사용
-
-### 7. 로딩 UX 개선
-
-사용자 경험을 향상시키기 위한 로딩 처리를 구현했습니다.
-
-#### Skeleton Loading
-```typescript
-// 콘텐츠 로드 중 레이아웃 미리 표시
-// 더 빠르게 느껴지는 UX
-```
-
-- 프로필 카드 스켈레톤
-- 채팅 목록 스켈레톤
-- 피드 스켈레톤
-
-#### Spinner Loading
-- 전체 화면 로딩
-- 버튼 로딩 상태
-- Pull-to-refresh
-
-### 8. 서버리스 아키텍처 구현
-
-AWS Lambda를 사용하여 UTM 링크 로깅 시스템을 구축했습니다.
-
-#### Lambda Function
-```javascript
-// UTM 파라미터 파싱
-// DynamoDB에 저장
-// 마케팅 채널 분석
-```
-
-**구현 내용:**
-- UTM 파라미터 추출 (source, medium, campaign)
-- 유입 경로 분석
-- A/B 테스트 채널 구분
-- 광고 성과 측정
-
-**효과:**
-- 서버 비용 절감
-- 자동 스케일링
-- 마케팅 ROI 측정 가능
-
-## 개발 프로세스
-
-### 1. 애자일 방식
-- 2주 단위 스프린트
-- 매일 스탠드업 미팅
-- 스프린트 리뷰 및 회고
-
-### 2. 협업 도구
-- **Jira**: 이슈 관리 및 스프린트 보드
-- **Confluence**: 문서화 및 기술 스펙
-- **Slack**: 팀 커뮤니케이션
-- **Figma**: 디자인 협업
-
-### 3. 코드 리뷰
-- PR 기반 코드 리뷰
-- 최소 1명 이상의 승인 필요
-- CI/CD 파이프라인 통과 필수
-
-## 기술적 챌린지
-
-### 1. React Native에서 네이티브 모듈 통합
-- iOS/Android 각각의 결제 시스템 통합
-- 푸시 알림의 플랫폼별 처리 차이
-- 네이티브 브릿지 최적화
-
-### 2. 실시간 채팅 성능 최적화
-- 메시지 목록 가상화
-- 이미지 캐싱 및 최적화
-- 오프라인 동기화
-
-### 3. 상태 관리 복잡도
-- 사용자, 매칭, 채팅 등 여러 상태의 동기화
-- Redux와 Context API 조합 사용
-- 비동기 상태 관리
-
-### 4. 앱 번들 크기 최적화
-- 사용하지 않는 코드 제거
-- 이미지 최적화
-- Code splitting
-
-## 성장 지표
-
-### MAU 성장
-- 런칭 첫 달: 100명
-- 3개월 후: 500명
-- 6개월 후: 1,000명+
-
-### 주요 기능 사용률
-- 채팅 활성 사용자: 70%
-- 프리미엄 전환율: 15%
-- 일일 활성 사용자(DAU): 300+
-
-## 배운 점
-
-### 1. 빠른 제품 출시의 중요성
-SaaS를 적극 활용하여 개발 시간을 단축하고 빠르게 시장에 출시하는 것이 중요함을 배웠습니다.
-
-### 2. 데이터 기반 의사결정
-Mixpanel, GA4 등을 통해 데이터를 수집하고 분석하여 기능 개선과 우선순위를 결정했습니다.
-
-### 3. 사용자 피드백의 가치
-앱스토어 리뷰, 고객 문의, 인터뷰 등을 통해 실제 사용자의 목소리를 듣고 제품을 개선했습니다.
-
-### 4. 크로스 플랫폼 개발
-React Native를 통해 하나의 코드베이스로 iOS와 Android 앱을 동시에 개발하는 효율성을 경험했습니다.
-
-### 5. 스타트업 문화
-빠른 의사결정, 실험 정신, 고객 중심 사고 등 스타트업에서의 일하는 방식을 배웠습니다.
+<div style="margin-top: 20px; margin-bottom: 40px;">
+  <h1 style="margin-bottom: 10px;">Bookbla</h1>
+  <p style="font-size: 1.6rem; color: #333; margin-bottom: 8px;">책을 통해 가치관을 표현하고, 가치관을 보고 진중한 만남을 도와주는 서비스</p>
+  <p style="font-size: 1.6rem; color: #333; margin-bottom: 20px;">2024.08 ~ 2025.09 | 소프트웨어 엔지니어</p>
+</div>
 
 ---
 
-[← 경험 목록으로 돌아가기](/#experience)
+<h1 style="font-size: 2.8rem; margin-bottom:8px">서비스 기획 동기</h1>
+
+<p>
+현재도 진행중이지만 미래에는 더욱 더 많은 사람들이 인터넷을 통해 사람을 만나는 시대가 올 거라고 생각합니다.
+하지만 지금 대부분의 앱들은 다른 사람의 외모만 보여주고 단기적인 만남을 위해 사용됩니다.
+<br/>
+그래서 인터넷 상에서도 외모만 보는게 아닌, 타인의 가치관과 여러 요소들을 보고 진중한 만남을 할 수 있지 않을까? 라는 생각에서 출발했습니다.
+그것을 제일 잘 해결해줄 수 있는 매게체가 '책'이라고 생각했고, 책을 통해 가치관을 이끌어내는 진중한 매칭 서비스를 만들었습니다.
+책 뿐만 아니라 본인을 잘 나타낼 수 있는 영화, 드라마도 추가하여 서비스를 확장했습니다.
+</p>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">서비스 설명</h1>
+
+<div style="margin: 30px 0;">
+  <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+    <div style="font-size: 1.4rem">아래 pdf뷰어가 보이지 않는다면 버튼을 눌러 pdf를 다운받아 보실 수 있습니다.</div>
+    <a href="/assets/pdfs/Bookbla_IR.pdf" download
+       style="padding: 6px 14px; background: #667eea; color: white; text-decoration: none; border-radius: 6px; font-size: 0.9rem;">
+       📄 PDF 다운로드
+    </a>
+  </div>
+
+  <iframe src="/assets/pdfs/Bookbla_IR.pdf"
+    width="100%"
+    height="800px"
+    style="border: 2px solid #ddd; border-radius: 8px; background: #f5f5f5;">
+    <p>PDF를 표시할 수 없습니다. <a href="/assets/pdfs/Bookbla_IR.pdf">여기</a>를 클릭해서 다운로드하세요.</p>
+  </iframe>
+</div>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">팀&역할</h1>
+
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; font-size: medium">
+    <h3 style="margin-top: 0;">팀 구성</h3>
+    <p style="color: #666; font-size: large">팀원 7명</p>
+    - CEO <br/>
+    - PM <br/>
+    - 마케팅 <br/>
+    - 디자인 <br/>
+    - 개발 3 (Front 2 / Back 1) <br/>
+  </div>
+  <div style="flex: 1; background: #e3f2fd; padding: 20px; border-radius: 8px; font-size: medium">
+    <h3 style="margin-top: 0;">나의 역할</h3>
+    <p style="color: #666; font-size: large">프론트엔드 개발</p>
+    - React Native 프론트엔드 개발 <br/>
+    - 서비스 기획 <br/>
+  </div>
+</div>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">핵심 기능</h1>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+  <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
+    <h3 style="margin-top: 0;">📌 책 등록</h3>
+    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <ul>
+      <li>세부 기능 1</li>
+      <li>세부 기능 2</li>
+    </ul>
+  </div>
+
+  <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
+    <h3 style="margin-top: 0;">📌 채팅</h3>
+    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <ul>
+      <li>세부 기능 1</li>
+      <li>세부 기능 2</li>
+    </ul>
+  </div>
+
+  <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
+    <h3 style="margin-top: 0;">📌 엽서 보내기/받기</h3>
+    <p style="color: #666;">기능 설명을 작성해주세요</p>
+    <ul>
+      <li>세부 기능 1</li>
+      <li>세부 기능 2</li>
+    </ul>
+  </div>
+</div>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">🛠️ Tech Stack</h1>
+
+<table style="width: 100%; border-collapse: collapse; font-size: medium">
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd; width: 30%;">Frontend</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      TypeScript, React-Native, Expo, Jest, Husky
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd;">Backend</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      SpringBoot, AWS EC2
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd;">Database</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      Mysql, AWS RDS
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd;">SaaS</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      Sendbird, Firebase, Datadog, Mixpanel, PASS, Meta pixel
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px; background: #f5f5f5; font-weight: bold; border: 1px solid #ddd;">Tools</td>
+    <td style="padding: 12px; border: 1px solid #ddd;">
+      Discord, Notion, Figma
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<h1 style="font-size: 2.8rem; margin-bottom:8px">🌱 역경과 성장</h1>
+<!-- 
+넣을 주제들
+- 채팅 외주 펑크로 인한 Sendbird 도입
+- 서버 다운
+- android sdk 35 대응(edge-to-edge)
+- expo SDK migration (50 -> 52)
+- 구독 기능 도입
+- 네비게이션 스택
+- mcp 도입(figma)
+- 다이어리...
+- 새로운 사람 만나기 시간
+-->
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">✅ 유저들의 신속함</h2>
+  <b>문제</b>: 이메일 인증 실패 제보 다수 발생 <br/>
+  <b>원인</b>: 이메일 전송 api호출 후 <b>즉시</b> 앱 백그라운드 전환 시 타이머 미작동 → 인증 코드 입력 칸 비활성화 <br/>
+  <b>해결</b>: API 로직 간소화, 타이머/input 활성화 시점 앞당김 <br/>
+  <b>교훈</b>: 유저의 예상치 못한 빠른 행동에 대비한 QA 강화 <br/>
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">🔗 딥링킹 + UTM 구현</h2>
+  <b>문제</b>: Firebase Dynamic Link 서비스 종료 <br/>
+  <b>해결</b>: 라임 링크 서비스의 딥링킹 기능 + Serverless 아키텍처로 구현된 UTM 서비스 제작 <br/>
+  <b>아키텍처 제안 이유</b>: Paid media를 사용하지 않는 중이었고, 현재 예측 사용량이 많지 않아서 비용 효율적이라고 생각. 또한 추후에 확장에도 용이하기에 서버리스 아키텍처를 시도 <br/>
+  <b>교훈</b>: 서버리스 아키텍처의 비용 효율성, 확장의 용이성 조사 & 직접 아키텍처 구현 <br/>
+  <a href="https://limelink.org/" target="_blank" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background: #222222; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">🔗 limelink.org</a> <br/>
+  <img src="/assets/serverless_architecture.png" alt="Serverless Architecture" style="width: 600px; margin-top: 20px; border-radius: 8px;" />
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">💰 결제 기능과 오류</h2>
+  <b>문제</b>: 초기 구현된 결제 시스템이 재화를 제대로 지급하지 못하는 문제 발생 <br/>
+  <b>해결</b>: 앱 최상위 컴포넌트에서 결제 처리 리스너를 구현하여, 결제 도중에 background 전환 등 이슈가 생겨도 원활하게 결제 처리가 가능하게 함 <br/>
+  <b>교훈</b>: 결제 관련 기능은 충분한 테스트를 거쳐야 함을 깨닳음. 또한 인터넷 연결 신호 미약, 앱 crash 등 다양한 상황이 일어날 수 있다는 사실 인지 <br/>
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">📤 Expo update(Code push) 서비스 도입</h2>
+  <b>문제</b>: 매번 앱을 배포하는데 빌드, 심사 과정이 매우 오래걸려 배포에 병목이 생김. 또한 빌드 비용이 많이 듬 <br/>
+  <b>해결</b>: 코드 푸시 서비스를 도입하여 실시간 배포 구현. MAU 1000 이하는 무료 배포 가능 <br/>
+  <b>교훈</b>: 일반 배포와 코드 푸시의 차이점 배움. 코드 푸시 서비스의 과금 구조 조사 <br/>
+  <b>추가 고도화</b>: background -> foreground 전환 시에도 코드 푸시 가능하도록 업데이트. 코드 푸시 업데이트 시점 조절 기능 추가. 버전별 강제 or 선택 업데이트 기능 추가 <br/>
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">📋 운영중인 서비스의 서버 점검</h2>
+  <b>문제</b>: 운영중인 서버가 멈추거나 업데이트를 해야 할 때 점검 화면을 띄워야 함. 띄우지 않으면 유저들이 혼란스러워 하는 문제가 생김 <br/>
+  <b>해결</b>: firebase remote config 시스템을 사용하여 점검 페이지 전환 구현 <br/>
+  <b>교훈</b>: 서버가 중단되는 상황에도 서드 파티 시스템을 통해 앱을 제어하는 방법을 배움 <br/>
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">📱 foreground & background 알림 처리</h2>
+  <b>문제</b>: 채팅 알림을 위해 foreground 알림(인앱 알림)과 background(푸시 알림)을 분리해서 표시해야 했음 <br/>
+  <b>해결</b>: foreground listener와 background listener를 분리하여 구현하고, 가능한 최상위 컴포넌트에 배치 <br/>
+  <b>교훈</b>: FCM, APNs 시스템에 대한 이해. Expo notification, Sendbird 알림 시스템 이해<br/>
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">🍡 Props drilling 리팩토링</h2>
+  <b>문제</b>: 컴포넌트를 세분화하여 구현할 경우, Props drilling 문제 발생 <br/>
+  <b>해결</b>: React Context API, Zustand를 사용하여 적절한 상태 관리 구현 <br/>
+  <b>교훈</b>: 불필요한 props들을 자주 상속하기보다는, 다양한 구현 방법들에 대해 배웠음 <br/>
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">🔥 Github Kanban board & milestone</h2>
+  협업을 위해 milestone을 만들어 sprint 기간동안 해야 할 기능들을 정리하고 <br/>
+  kanban board를 활용하여 다른 팀원들과 업무를 분담, 현재 상태를 공유함. <br/>
+  또한 Daily scrum을 진행하여 그날 서로 할 일을 공유하고 good & new를 이야기하며 하루를 시작함 <br/>
+</div>
+
+<br/>
+
+---
+
+<div style="text-align: center; margin-top: 60px;">
+  <a href="/" style="display: inline-block; font-size: medium; padding: 12px 30px; background: #333; color: white; text-decoration: none; border-radius: 6px; transition: all 0.3s;">이력서 홈으로 돌아가기</a>
+</div>
