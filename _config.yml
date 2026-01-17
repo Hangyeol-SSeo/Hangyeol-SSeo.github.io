@@ -87,7 +87,7 @@ content:
           ### 주요 업무
 
           *Sendbird*, *Datadog*, *firebase(GA4)*, *Mixpanel*, *Meta pixel*등 **SaaS 도입** <br/>
-          → Datadog Funnel Analysis & Mixpanel 활용하여 가입 이탈 개선, **가입 전환률 30% -> 65%로 개선**
+          → Datadog Funnel Analysis & Mixpanel 활용하여 가입 이탈 개선, **가입 전환률 30% -> 65% 개선**
           
           **EAS update(code push) 구현** 및 업데이트 옵션 세분화 <br/>
           → build & 심사 과정 **3~4일** -> 배포까지 **10분**으로 단축

@@ -58,3 +58,214 @@ a.link {
 h2 {
   font-weight: 400;
 }
+
+// ========================================
+// Print Styles - PDF 최적화
+// ========================================
+@media print {
+  // 페이지 설정
+  @page {
+    margin: 1cm 1cm;
+    size: A4;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.3;
+  }
+
+  // 컨테이너 여백 축소
+  .container {
+    margin-top: 0 !important;
+    padding: 0 !important;
+  }
+
+  // 헤더 영역 여백 축소
+  .header-container {
+    margin-top: 0 !important;
+    margin-bottom: 5px !important;
+  }
+
+  .header-left {
+    margin-top: 0 !important;
+  }
+
+  // ========================================
+  // GitHub, LinkedIn 링크 표시
+  // ========================================
+  .header-right ul.icons.no-print {
+    display: block !important;
+    margin-bottom: 5px !important;
+    padding: 0 !important;
+  }
+
+  .header-right ul.icons.no-print li {
+    display: inline-block !important;
+    margin-right: 10px !important;
+  }
+
+  .header-right ul.icons.no-print li a {
+    color: #333 !important;
+    text-decoration: underline !important;
+    font-size: 9pt !important;
+  }
+
+  .header-right ul.icons.no-print li a i {
+    margin-right: 3px;
+  }
+
+  // 아이콘 뒤에 URL 텍스트 표시
+  .header-right ul.icons.no-print li a[href*="github"]::after {
+    content: " github.com/Hangyeol-SSeo";
+  }
+
+  .header-right ul.icons.no-print li a[href*="linkedin"]::after {
+    content: " linkedin.com/in/한결-서";
+  }
+
+  // ========================================
+  // About Me 섹션 - 글씨 축소
+  // ========================================
+  .intro-container {
+    margin-bottom: 8px !important;
+  }
+
+  .intro-container p {
+    margin-bottom: 3px !important;
+  }
+
+  // ========================================
+  // 레이아웃 - 여백 최소화 & 경계선 추가
+  // ========================================
+  .layout {
+    margin-bottom: 0.4rem !important;
+    padding-bottom: 0.8rem !important;
+    border-bottom: 1px dashed #ddd !important;
+    page-break-inside: avoid;
+  }
+
+  // 마지막 항목은 경계선 제거
+  .layout:last-child {
+    border-bottom: none !important;
+  }
+
+  // 제목 영역 좁게, 본문 영역 넓게
+  .layout .details {
+    width: 20% !important;
+    float: left !important;
+  }
+
+  .layout .content {
+    width: 80% !important;
+    float: left !important;
+    margin-top: 4px !important;
+  }
+
+  // 제목 영역 텍스트 축소
+  .layout .details h4 {
+    font-size: 15pt !important;
+    margin-bottom: 4px !important;
+    margin-top: 2px !important;
+  }
+
+  .layout .details p {
+    font-size: 10pt !important;
+    margin-bottom: 1px !important;
+  }
+
+  // 본문 영역 스타일 - 여백 최소화
+  .layout .content p,
+  .layout .content li {
+    font-size: 11pt !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .layout .content ul,
+  .layout .content ol {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    padding-left: 18px !important;
+  }
+
+  .layout .content h3 {
+    font-size: 14pt !important;
+    margin-top: 6px !important;
+    margin-bottom: 4px !important;
+  }
+
+  // 인용문 스타일 - 여백 최소화
+  .quote {
+    font-size: 8pt !important;
+    margin-bottom: 3px !important;
+    margin-top: 0 !important;
+    padding: 2px 6px !important;
+  }
+
+  // 링크 스타일
+  a {
+    color: #333 !important;
+    text-decoration: none !important;
+  }
+
+  // 상세 정보 링크 버튼 숨김 (PDF에서 불필요)
+  .details a.link {
+    display: none !important;
+  }
+
+  // additional_links 아이콘 숨김
+  .aditional-links {
+    display: none !important;
+  }
+
+  // 섹션 타이틀 스타일
+  h2 {
+    font-size: 12pt !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    border-bottom: 1px solid #999;
+    padding-bottom: 3px;
+  }
+
+  // 프로필 이미지 숨김 (공간 절약)
+  .intro-container .no-print {
+    display: none !important;
+  }
+
+  // 마크 태그 스타일 (하이라이트)
+  mark {
+    background-color: #e8e8e8 !important;
+    padding: 0 3px !important;
+    border-radius: 2px;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  // ========================================
+  // 스킬 칩 스타일 - 글자 보이게 수정
+  // ========================================
+  .skill-chip {
+    font-size: 11pt !important;
+    padding: 4px 10px !important;
+    background: #333 !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  // 스킬 칩 대안 스타일 (배경색 인쇄 안될 경우)
+  .skill-chips {
+    gap: 6px !important;
+  }
+
+  // Footer 숨김
+  footer {
+    display: none !important;
+  }
+
+  // 브라우저 배경색 인쇄 강제
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
