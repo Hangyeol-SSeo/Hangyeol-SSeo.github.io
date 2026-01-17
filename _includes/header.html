@@ -106,6 +106,17 @@
         {% endfor %}
       </ul>
 
+      <!-- Print 전용 소셜 링크 (한 줄) -->
+      <p class="print-only" style="display: none; font-size: 9pt; margin: 3px 0;">
+        <a href="https://hangyeol-sseo.github.io/">hangyeol-sseo.github.io</a>
+        {%- if site.github_username -%}
+        &nbsp;|&nbsp; <a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+        &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">linkedin.com/in/한결-서</a>
+        {%- endif -%}
+      </p>
+
       {%- if site.email -%}
         <p>
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
