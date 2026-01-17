@@ -122,33 +122,9 @@ content:
           
           Web - React Native webview간 **bridge 통신** 구현
           
-          EAS(Expo Application Service) build 자동화 구축
+          EAS(Expo Application Service) build & store submit 자동화 구축
           
           **생체인증** (iOS Face id, Android 지문 인증) 구현
-
-  - title: Experience - Entrepreneurship
-    layout: list
-    content:
-      - layout: left
-        title: APRO - 조기축구 실력 맞춤 매칭 플랫폼
-        sub_title: Co-Founder
-        caption: 2023.11 ~ 2024.07
-        link: /experience/apro/
-        link_text: 상세 정보 →
-        quote: >
-          조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
-        description: | # this will include new lines to allow paragraphs
-          - 2024 <mark>안산대학교 아이디어사업화 지원사업 선정</mark>
-
-          ### 주요 업무
-
-          아이디어 발굴 및 검증
-
-          현장에 나가 직접 고객과 인터뷰, 피드백 수렴
-
-          사업계획서 작성
-          
-          React + Node.js 웹 애플리케이션 구축
 
   - title: Projects - Individual/Team
     layout: list # Type of content section (list/text)
@@ -209,6 +185,27 @@ content:
           
           Vanilla Javascript로 작성하였으며 추가적인 라이브러리 없이 네이버 api와 네트워크만을 분석하여 구현했습니다.
 
+      - layout: left
+        title: APRO - 조기축구 실력 맞춤 매칭 플랫폼
+        sub_title: Co-Founder
+        caption: 2023.11 ~ 2024.07
+        link: /experience/apro/
+        link_text: 상세 정보 →
+        quote: >
+          조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
+        description: | # this will include new lines to allow paragraphs
+          - 2024 <mark>안산대학교 아이디어사업화 지원사업 선정</mark>
+
+          ### 주요 업무
+
+          아이디어 발굴 및 검증
+
+          현장에 나가 직접 고객과 인터뷰, 피드백 수렴
+
+          사업계획서 작성
+          
+          React + Node.js 랜딩페이지 구축
+
   - title: Skills
     layout: text
     content: |
@@ -216,7 +213,7 @@ content:
         <span class="skill-chip">TypeScript</span>
         <span class="skill-chip">React</span>
         <span class="skill-chip">React-Native</span>
-        <span class="skill-chip">Node.js</span>
+        <span class="skill-chip">CSS</span>
       </div>
 
   - title: Education
