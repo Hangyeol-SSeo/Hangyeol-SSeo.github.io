@@ -86,14 +86,6 @@ h2 {
 
   .header-left {
     margin-top: 0 !important;
-    width: 40% !important;
-    float: left !important;
-  }
-
-  .header-right {
-    width: 60% !important;
-    float: left !important;
-    text-align: right !important;
   }
 
   // Print용 링크 표시
@@ -104,6 +96,12 @@ h2 {
   .print-only a {
     color: #0066cc !important;
     text-decoration: underline !important;
+  }
+
+  // header-right 영역 (이메일, 소셜 링크) 폰트 축소
+  .header-right p {
+    font-size: 10pt !important;
+    margin: 2px 0 !important;
   }
 
   // About Me 섹션
