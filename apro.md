@@ -53,7 +53,7 @@ permalink: /experience/apro/
 ---
 
 <h1 style="font-size: 2.8rem; margin-bottom:8px">주요 성과</h1>
-- 2024 <mark>안산대학교 아이디어사업화 지원사업 선정</mark>
+- 2024 <mark>안산대학교 아이디어 사업화 지원사업 선정</mark>
 
 <br/>
 
