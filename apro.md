@@ -8,7 +8,7 @@ permalink: /experience/apro/
   <h1 style="margin-bottom: 10px;">APRO</h1>
   <p style="font-size: 1.6rem; color: #333; margin-bottom: 8px;">조기축구 실력 맞춤 매칭 플랫폼</p>
   <p style="font-size: 1.6rem; color: #333; margin-bottom: 30px;">2023.11 ~ 2024.07 | Co-Founder</p>
-  <p style="font-size: 1.6rem; color: #333; margin-bottom: 20px; font-weight: 600">※ 본 프로젝트는 기술적 개발보다는 창업 과정을 통해 얻은 실질적인 경험과 비즈니스적 배움을 기록하고, 저의 성장 과정을 나타내고자 작성했습니다.</p>
+  <p style="font-size: 1.6rem; color: #333; margin-bottom: 20px; font-weight: 600">※ 본 프로젝트는 기술적 개발보다는 창업 과정을 통해 얻은 실질적인 경험을 기록하고, 저의 성장 과정을 나타내고자 작성했습니다.</p>
 </div>
 
 ---
