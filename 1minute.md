@@ -14,7 +14,15 @@ permalink: /experience/1minute/
 
 <h1 style="font-size: 2.8rem; margin-bottom:8px">서비스 설명</h1>
 
-<!-- 서비스 설명 삽입 -->
+## 배경:
+현대인의 스트레스와 수면 부족 문제가 심화됨에 따라, 주관적인 느낌이 아닌 객관적인 데이터에 기반한 멘탈 케어 솔루션이 필요함.
+
+## 목적:
+- MWS(심리 설문)와 HRV(심박변이도) 데이터를 융합하여 사용자의 심신 상태를 정량적으로 분석
+- 분석 결과에 따라 AI 기반 맞춤형 콘텐츠(명상 등)와 AI 상담사 서비스를 제공하여 실질적인 회복을 유도
+- 일회성이 아닌, 지속 가능한 마음 회복 여정을 설계
+
+<!-- 추후 스크린샷 추가 -->
 
 <br/>
 
@@ -98,12 +106,28 @@ permalink: /experience/1minute/
 webview
 -->
 <div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
-  <h2 style="color: #222222">제목</h2>
+  <h2 style="color: #222222">Webview를 활용한 React Native(RN) 앱</h2>
+  <b>문제</b>: React Native를 다뤄본 팀원이 별로 없어, 개발 편의성을 위해 webview를 활용하기로 결정 <br/>
+  <b>해결</b>: React-RN bridge 코드를 활용하여, 앱에서 webview로 띄운 웹사이트와 상호작용을 가능하게 구현<br/>
+  <b>교훈</b>: Navigation 처리를 RN에서도 어느 정도 수행해야, bridge 코드가 한곳에 몰리지 않아 안정성이 있다는 것을 배움. 또한 webview로 띄운 화면의 배경 색상 처리와 기기의 상, 하단을 고려한 설계를 고민하는 시간을 가짐 <br/>
+</div>
+
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">생체인증 구현(Android - fingerprint / iOS - face id)</h2>
+  <b>문제</b>: 고객사에서 로그인 중 생체 인증을 사용하기를 원하여, React Native에서 생체 인증을 구현해야 함 <br/>
+  <b>해결</b>: expo-local-authentication 라이브러리를 활용하여 OS에 맞춘 생체 인증 시스템을 구현함 <br/>
+  <b>교훈</b>: 구현이 생각보다 어렵지 않아서 겁먹지 않고 뭐든 시도해 보아야겠다고 깨달음. 그리고 일반 카메라 권한과 face id의 권한이 다르다는 사실도 배움. face id는 성공/실패 결과만 전달받고 이미지 데이터에 접근이 불가함 <br/>
+</div>
+
+<!--
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">Webview를 활용한 React-Native 앱</h2>
   <b>문제</b>:  <br/>
   <b>원인</b>:  <br/>
   <b>해결</b>:  <br/>
   <b>교훈</b>:  <br/>
 </div>
+-->
 
 <br/>
 
