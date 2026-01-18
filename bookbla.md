@@ -233,7 +233,8 @@ permalink: /experience/bookbla/
     - PM <br/>
     - 마케팅 <br/>
     - 디자인 <br/>
-    - 개발 3 (Front 2 / Back 1) <br/>
+    - 프론트엔드 개발 2 <br/>
+    - 백엔드 개발 1 <br/>
   </div>
   <div style="flex: 1; background: #e3f2fd; padding: 20px; border-radius: 8px; font-size: medium">
     <h3 style="margin-top: 0;">나의 역할</h3>
