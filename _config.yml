@@ -177,7 +177,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - <mark>WAU(주간 사용자) 21500</mark> 
           - <mark>평점 4.95(20개)</mark>
-          - <mark>github Star 5개</mark>
+          - <mark>Github Star 5개</mark>
           
           기존 개발자 도구(f12)를 사용하여 번거롭고 귀찮게 네이버 카페에 올라온 동영상을 다운받아야만 하는 문제를 확장 프로그램으로 해결했습니다.
           
