@@ -55,6 +55,12 @@ a.link {
   font-weight: 500;
 }
 
+// Main page quote style improvement
+.quote {
+  word-break: keep-all; /* Improve Korean line breaking */
+  overflow-wrap: break-word;
+}
+
 h2 {
   font-weight: 400;
 }
@@ -123,6 +129,12 @@ h2 {
 
   .layout:last-child {
     border-bottom: none !important;
+  }
+
+  // BookBla 섹션 여백 조정
+  .layout:has(#북블라-bookbla) {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
 
   // 제목/본문 영역 비율

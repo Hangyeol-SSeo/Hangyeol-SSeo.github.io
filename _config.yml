@@ -87,10 +87,10 @@ content:
 
           ### 주요 업무
 
-          *Sendbird*, *Datadog*, *firebase(GA4)*, *Mixpanel*, *Meta pixel*등 **SaaS 도입** <br/>
+          *Sendbird*, *Datadog*, *Firebase(GA4)*, *Mixpanel*, *Meta pixel*등 **SaaS 도입** <br/>
           → Datadog Funnel Analysis & Mixpanel 활용하여 가입 이탈 개선, **가입 전환율 30% -> 65% 개선**
           
-          **EAS update(code push) 구현** 및 업데이트 옵션 세분화 <br/>
+          **EAS update(Code push) 구현** 및 업데이트 옵션 세분화 <br/>
           → build & 심사 과정 **3~4일** -> 배포까지 **10분**으로 단축
         
           EAS, Sendbird의 **foreground**, **background** **알림 핸들링**
@@ -126,6 +126,8 @@ content:
           EAS(Expo Application Service) build & store submit 자동화 구축
           
           **생체인증** (iOS Face id, Android 지문 인증) 구현
+          
+          **Expo-Modules-Api**를 사용해 **Swift, Kotlin** 코드 작성 및 네이티브 모듈 구현
 
   - title: Projects - Individual/Team
     layout: list # Type of content section (list/text)
