@@ -66,6 +66,7 @@ content:
     layout: list
     content:
       - layout: left
+#        border: weak
         title: 북블라(BookBla)
         sub_title: 소프트웨어 엔지니어
         caption: 2024.08 ~ 2025.09
@@ -76,7 +77,7 @@ content:
 #            icon: fas fa-globe
 #            url: https://www.bookbla.com/
         quote: >
-          책을 통해 가치관을 표현하고, 가치관을 통해 진중한 만남을 도와주는 서비스
+          아이디어 기획과 MVP 출시부터 시작하여 유저 피드백을 바탕으로 매주 2~3개의 기능 구현/수정 사항을 배포
         description: | # this will include new lines to allow paragraphs
           - <mark>시드투자 1억원</mark> - 코코네 one
           - <mark>MAU 1000명 이상, 월간 매출 300만원 이상 달성</mark>
@@ -114,7 +115,7 @@ content:
         link: /experience/1minute/
         link_text: 상세 정보 →
         quote: >
-          HRV / MWS 검사를 통해 고객의 상태를 측정하고 분석하여, 마음 건강을 챙겨주는 AI assistant 앱
+          React Native + React를 사용한 하이브리드 앱 MVP 제작 및 Frontend ci/cd 구축
         description: | # this will include new lines to allow paragraphs
           - <mark>삼성전자 직원들 대상 초기 오픈 예정</mark>
 
@@ -145,7 +146,7 @@ content:
             icon: fab fa-github
             url: https://github.com/Hangyeol-SSeo/Companion-Plant-App
         quote: >
-          라즈베리파이를 활용한 반려식물 교감 시스템
+          식물 데이터를 수집하는 라즈베리파이가 내장된 화분, Node.js 백엔드 서버, Android 앱을 연동한 경험
         description: | # this will include new lines to allow paragraphs
           - 2023 가천대학교 창의적종합설계 경진대회 <mark>금상</mark>
           - 2023 창의혁신 DNA 산학협력 팀 프로젝트 <mark>은상</mark>
@@ -173,7 +174,7 @@ content:
             icon: fab fa-github
             url: https://github.com/Hangyeol-SSeo/NaverCafe-VideoDownloader
         quote: >
-          네이버 카페의 동영상을 쉽게 내려받을 수 있는 확장프로그램
+          Vanilla Javascript로 구현한 네이버 카페의 동영상을 쉽게 내려받을 수 있는 확장프로그램
         description: | # this will include new lines to allow paragraphs
           - <mark>WAU(주간 사용자) 21500</mark> 
           - <mark>평점 4.95(20개)</mark>
@@ -192,7 +193,7 @@ content:
         link: /experience/apro/
         link_text: 상세 정보 →
         quote: >
-          조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
+          가설설정, 아이디어 검증, 실행, 피드백까지 창업 과정 flow를 경험. 랜딩페이지 배포를 위한 서버 구축 및 로그 수집.
         description: | # this will include new lines to allow paragraphs
           - 2024 <mark>안산대학교 아이디어 사업화 지원사업 선정</mark>
 
