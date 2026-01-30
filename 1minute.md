@@ -119,6 +119,14 @@ webview
   <b>교훈</b>: 구현이 생각보다 어렵지 않아서 겁먹지 않고 뭐든 시도해 보아야겠다고 깨달음. 그리고 일반 카메라 권한과 face id의 권한이 다르다는 사실도 배움. face id는 성공/실패 결과만 전달받고 이미지 데이터에 접근이 불가함 <br/>
 </div>
 
+<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+  <h2 style="color: #222222">🍀 Expo-Modules-Api를 사용하여 Native 모듈 구현</h2>
+  <b>도전 과제</b>: PPG(Photoplethysmography) 심박 측정 기능 구현 시, 카메라로 초당 60프레임의 데이터를 실시간으로 수집하고 처리해야 했음. React Native로 구현한 초기 버전에서는 프레임 드롭과 발열 문제가 발생하여 안정적인 측정이 어려웠음 <br/>
+  <b>문제 분석</b>: React Native의 JavaScript bridge를 통한 카메라 데이터 처리는 고빈도 실시간 연산에서 병목 현상을 일으키는 문제가 발생. 네이티브 언어(Swift, Kotlin) 대비 성능 차이가 명확했고, 이는 배터리 효율, 발열에도 영향을 미침 <br/>
+  <b>해결</b>: Expo Modules API를 사용해 카메라 데이터 수집 및 신호 처리 로직을 Swift/Kotlin 네이티브 모듈로 구현 <br/>
+  <b>교훈</b>: Expo 환경에서도 네이티브 코드 통합이 가능함을 확인. AI 도구를 활용해 미숙한 언어(Swift/Kotlin)로도 효과적으로 구현할 수 있었음 <br/>
+</div>
+
 <!--
 <div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">Webview를 활용한 React-Native 앱</h2>
