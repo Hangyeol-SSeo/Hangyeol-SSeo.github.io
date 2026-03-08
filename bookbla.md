@@ -26,6 +26,7 @@ permalink: /experience/bookbla/
 
 ---
 
+<div class="print-hide">
 <h1 style="font-size: 2.8rem; margin-bottom:8px">서비스 설명</h1>
 
 <div style="margin: 30px 0;">
@@ -44,10 +45,9 @@ permalink: /experience/bookbla/
     <p>PDF를 표시할 수 없습니다. <a href="/assets/pdfs/Bookbla_IR.pdf">여기</a>를 클릭해서 다운로드하세요.</p>
   </iframe>
 </div>
+</div>
 
-<br/>
-
----
+<hr class="print-hide"/>
 
 <h1 style="font-size: 2.8rem; margin-bottom:8px">주요 성과</h1>
 - <mark>시드 투자 1억원 유치 (코코네 one)</mark>
@@ -62,7 +62,7 @@ permalink: /experience/bookbla/
 
 <h1 style="font-size: 2.8rem; margin-bottom:8px">핵심 기능</h1>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="feature-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="background: #fff; border: 2px solid #e0e0e0; padding: 20px; border-radius: 8px;">
     <h3 style="margin-top: 0;">📌 책 등록</h3>
     <p style="color: #666;">유저가 자신의 가치관을 표현할 책을 선택하여 감상문과 함께 서재에 등록</p>
@@ -138,9 +138,9 @@ permalink: /experience/bookbla/
 
 <br/>
 
----
+<hr class="print-hide"/>
 
-<h1 style="font-size: 2.8rem; margin-bottom:8px">🌱 역경과 성장</h1>
+<h1 class="growth-section-header" style="font-size: 2.8rem; margin-bottom:8px">🌱 역경과 성장</h1>
 <!-- 
 넣을 주제들
 - 채팅 외주 펑크로 인한 Sendbird 도입
@@ -154,7 +154,7 @@ permalink: /experience/bookbla/
 - 새로운 사람 만나기 시간
 -->
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">✅ 유저들의 신속함</h2>
   <b>문제</b>: 이메일 인증 실패 제보 다수 발생 <br/>
   <b>원인</b>: 이메일 전송 api 호출 후 <b>즉시</b> 앱 백그라운드 전환 시 타이머 미작동 → 인증 코드 입력 칸 비활성화 <br/>
@@ -162,7 +162,7 @@ permalink: /experience/bookbla/
   <b>교훈</b>: 유저의 예상치 못한 빠른 행동에 대비한 QA 강화 <br/>
 </div>
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">🔗 딥링킹 + UTM 구현</h2>
   <b>문제</b>: Firebase Dynamic Link 서비스 종료 <br/>
   <b>해결</b>: 라임 링크 서비스의 딥링킹 기능 + Serverless 아키텍처로 구현된 UTM 서비스 제작 <br/>
@@ -172,14 +172,14 @@ permalink: /experience/bookbla/
   <img src="/assets/serverless_architecture.png" alt="Serverless Architecture" style="width: 600px; margin-top: 20px; border-radius: 8px;" />
 </div>
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">💰 결제 기능과 오류</h2>
   <b>문제</b>: 초기 구현된 결제 시스템이 재화를 제대로 지급하지 못하는 문제 발생 <br/>
   <b>해결</b>: 앱 최상위 컴포넌트에서 결제 처리 리스너를 구현하여, 결제 도중에 background 전환 등 이슈가 생겨도 원활하게 결제 처리가 가능하게 함 <br/>
   <b>교훈</b>: 결제 관련 기능은 충분한 테스트를 거쳐야 함을 깨달음. 또한 인터넷 연결 신호 미약, 앱 crash 등 다양한 상황이 일어날 수 있다는 사실 인지 <br/>
 </div>
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">📤 Expo update(Code push) 서비스 도입</h2>
   <b>문제</b>: 매번 앱을 배포하는데 빌드, 심사 과정이 매우 오래 걸려 배포에 병목이 생김. 또한 빌드 비용이 많이 듦 <br/>
   <b>해결</b>: 코드 푸시 서비스를 도입하여 실시간 배포 구현. MAU 1000 이하는 무료 배포 가능 <br/>
@@ -187,28 +187,28 @@ permalink: /experience/bookbla/
   <b>추가 고도화</b>: background -> foreground 전환 시에도 코드 푸시 가능하도록 업데이트. 코드 푸시 업데이트 시점 조절 기능 추가. 버전별 강제 or 선택 업데이트 기능 추가 <br/>
 </div>
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">📋 운영 중인 서비스의 서버 점검</h2>
   <b>문제</b>: 운영중인 서버가 멈추거나 업데이트해야 할 때 점검 화면을 띄워야 함. 띄우지 않으면 유저들이 혼란스러워하는 문제가 생김 <br/>
   <b>해결</b>: firebase remote config 시스템을 사용하여 점검 페이지 전환 구현 <br/>
   <b>교훈</b>: 서버가 중단되는 상황에도 서드 파티 시스템을 통해 앱을 제어하는 방법을 배움 <br/>
 </div>
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">📱 foreground & background 알림 처리</h2>
   <b>문제</b>: 채팅 알림을 위해 foreground 알림(인앱 알림)과 background(푸시 알림)을 분리해서 표시해야 했음 <br/>
   <b>해결</b>: foreground listener와 background listener를 분리하여 구현하고, 가능한 최상위 컴포넌트에 배치 <br/>
   <b>교훈</b>: FCM, APNs 시스템에 대한 이해. Expo notification, Sendbird 알림 시스템 이해<br/>
 </div>
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">🍡 Props drilling 리팩토링</h2>
   <b>문제</b>: 컴포넌트를 세분화하여 구현할 경우, Props drilling 문제 발생 <br/>
   <b>해결</b>: React Context API, Zustand를 사용하여 적절한 상태 관리 구현 <br/>
   <b>교훈</b>: 불필요한 props 들을 자주 상속하기보다는, 다양한 구현 방법들에 대해 배웠음 <br/>
 </div>
 
-<div style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
+<div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
   <h2 style="color: #222222">🔥 Github Kanban board & milestone</h2>
   협업을 위해 milestone을 만들어 sprint 기간에 해야 할 기능들을 정리하고 <br/>
   kanban board를 활용하여 다른 팀원들과 업무를 분담, 현재 상태를 공유함. <br/>
@@ -221,7 +221,7 @@ permalink: /experience/bookbla/
 
 <h1 style="font-size: 2.8rem; margin-bottom:8px">팀&역할</h1>
 
-<div style="display: flex; gap: 20px; margin: 20px 0;">
+<div class="team-section" style="display: flex; gap: 20px; margin: 20px 0;">
   <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; font-size: medium">
     <h3 style="margin-top: 0;">팀 구성</h3>
     <p style="color: #666; font-size: large">팀원 7명</p>

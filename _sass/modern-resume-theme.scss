@@ -192,3 +192,115 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+/* ========== Experience Page Print Styles ========== */
+@media print {
+  /* ① 서비스 설명 섹션 숨김 + 바로 뒤에 오는 <br> 및 <hr> 도 숨김 */
+  .print-hide {
+    display: none !important;
+  }
+
+  /* print-hide 바로 다음에 오는 <hr> 구분선 숨김 */
+  .print-hide + br,
+  .print-hide + br + hr,
+  .print-hide ~ hr:first-of-type {
+    display: none !important;
+  }
+
+  /* ② 핵심 기능 그리드 - 3열 고정 (3개 카드 한 줄에 표시) */
+  .feature-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+    margin: 8px 0 !important;
+
+    > div {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+      border: 1px solid #ccc !important;
+      padding: 10px !important;
+    }
+
+    /* 카드 내 글자 크기 */
+    h3 {
+      font-size: 2rem !important;
+      margin-bottom: 4px !important;
+    }
+
+    p {
+      font-size: 1.6rem !important;
+      margin-bottom: 4px !important;
+      color: #555 !important;
+    }
+
+    ul {
+      font-size: 1.5rem !important;
+      margin: 0 !important;
+      padding-left: 16px !important;
+    }
+
+    li {
+      margin-bottom: 2px !important;
+    }
+  }
+
+  /* ③ 역경과 성장 카드 - 배경색 강제 출력 + 페이지 분리 방지 */
+  .growth-card {
+    background: #f0f0f0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    border-radius: 6px !important;
+    padding: 16px 20px !important;
+    margin: 10px 0 !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    border-left: 4px solid #555 !important;
+  }
+
+  .growth-card h2 {
+    font-size: 1.3rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 6px !important;
+  }
+
+  /* ③ 팀&역할 플렉스 박스 - 배경색 강제 출력 */
+  .team-section,
+  .team-section > div {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* 팀&역할 div의 배경색을 인라인 스타일로 지정했으므로 강제 적용 */
+  [style*="background: #f8f9fa"],
+  [style*="background:#f8f9fa"] {
+    background: #f8f9fa !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  [style*="background: #e3f2fd"],
+  [style*="background:#e3f2fd"] {
+    background: #e3f2fd !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* ④ 역경과 성장 섹션 앞에서 새 페이지로 전환 */
+  .growth-section-header {
+    break-before: page !important;
+    page-break-before: always !important;
+    padding-top: 8px;
+  }
+
+  /* 인쇄 시 하단 버튼 및 홈으로 돌아가기 숨김 */
+  .footer-container,
+  nav,
+  [style*="text-align: center; margin-top: 60px"] {
+    display: none !important;
+  }
+
+  /* 페이지 여백 */
+  @page {
+    margin: 15mm 12mm;
+  }
+}
