@@ -15,7 +15,7 @@ permalink: /experience/bookbla/
 <h1 style="font-size: 2.8rem; margin-bottom:8px">서비스 기획 동기</h1>
 
 <p>
-현재도 진행 중이지만 미래에는 더욱더 많은 사람이 인터넷을 통해 사람을 만나는 시대가 올 거라고 생각합니다.
+미래에는 더욱더 많은 사람이 인터넷을 통해 사람을 만나는 시대가 올 거라고 생각합니다.
 하지만 지금 대부분의 앱은 다른 사람의 외모만 보여주고 단기적인 만남을 위해 사용됩니다.
 <br/>
 그래서 인터넷상에서도 외모만 보는 게 아닌, 타인의 가치관과 여러 요소를 보고 진중한 만남을 할 수 있지 않을까? 라는 생각에서 출발했습니다.
@@ -53,12 +53,8 @@ permalink: /experience/bookbla/
 - <mark>시드 투자 1억원 유치 (코코네 one)</mark>
 - <mark>KBS, EBS 뉴스 방영</mark>
 - <mark>MAU 1,000명 달성</mark>
-- <mark>월 매출 300만원 달성</mark>
 - <mark>학생창업유망팀 300+</mark> 선정
 - <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
-- <mark>일 평균 매칭 성사율 30% 달성</mark>(수락한 엽서/보낸 엽서)
-- <mark>Day 7 리텐션 45%</mark> / <mark>Day 30 리텐션 30%</mark>
-- <mark>평균 ARPPU 8000원</mark>
 
 <br/>
 
