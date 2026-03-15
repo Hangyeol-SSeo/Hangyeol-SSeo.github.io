@@ -62,7 +62,7 @@ permalink: /experience/apro/
 <h1 class="growth-section-header" style="font-size: 2.8rem; margin-bottom:8px">🌱 프로젝트 가설 검증 과정</h1>
 
 <div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
-  <h2 style="color: #222222">⚽️ 사람들이 우리가 생각하는 문제를 느끼고 있는지에 대한 가설 검증</h2>
+  <h2 style="color: #222222">⚽️ 문제 실재 검증 - 가짜 문 프리토타이핑</h2>
   <b>기회 및 가설</b>: "매칭 카페를 이용하는 팀 중 20% 이상이 실력이 비슷한 상대 팀과 매칭을 잡는 것이 힘들다"라는 가설 설정<br/>
   <b>실행</b>: 웹 랜딩 페이지를 만들고 매칭 카페에 배포하여 가짜 문 프리토타이핑 실행 - 팀명, 원하는 날짜 & 시간을 입력하면 자동으로 매칭해준다고 언급하고 정보 수집<br/>
   <b>결과 및 피드백</b>: 약 500명의 접속자(중복 제거) 중에 44.7%가 팀 정보 입력하여 제출<br/>
@@ -70,7 +70,7 @@ permalink: /experience/apro/
 </div>
 
 <div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
-  <h2 style="color: #222222">👨🏻‍⚖️ 문제에 대한 솔루션 도출 -> 설문을 통해 솔루션 니즈 파악</h2>
+  <h2 style="color: #222222">👨🏻‍⚖️ 솔루션 검증 - 심판 도입 설문</h2>
   <b>기회 및 가설</b>: 심판을 도입하여 각 팀의 실력을 공정하게 측정 -> 측정한 실력을 바탕으로 팀 티어 산출 -> 티어에 맞는 팀끼리 매칭<br/>
   <b>실행</b>: 구글 Form을 사용하여 심판 도입에 대한 의향, 심판이 공정한 실력을 산출할 수 있을지 의견 조사<br/>
   <b>결과 및 피드백</b>: 23팀이 제출, 약 80%가 심판 도입 찬성. 공정한 실력 산출에 대해서는 대체로 긍정적인 반응<br/>
@@ -78,7 +78,7 @@ permalink: /experience/apro/
 </div>
 
 <div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
-  <h2 style="color: #222222">💸 심판을 활용한 비즈니스 모델 수립</h2>
+  <h2 style="color: #222222">💸 비즈니스 모델 검증 - 가격 설문</h2>
   <b>기회 및 가설</b>: "매칭료 + 심판 선임 비용으로 45,000원 이상 지급할 팀이 50% 이상 존재할 것이다"라는 가설 설정. 팀당 45,000원이므로 평균 경기 참여 인원 15명 기준, 인당 3,000원 정도라 생각해 적당하다고 판단<br/>
   <b>실행</b>: 구글 Form을 사용하여 매칭+심판 선임료 지급 의향 가격 조사 <br/>
   <b>결과 및 피드백</b>: 약 20팀 중 45,000원을 넘겨 낼 거라고 답변한 팀은 0팀. 최대 30,000원까지는 의향 있는 것으로 파악 <br/>
@@ -86,9 +86,9 @@ permalink: /experience/apro/
 </div>
 
 <div class="growth-card" style="background: #f5f5f5; padding: 30px; border-radius: 12px; margin: 20px 0; font-size: medium">
-  <h2 style="color: #222222">🏟️ 심판을 활용한 실력 측정에 대한 실험</h2>
+  <h2 style="color: #222222">🏟️ 현장 실험 - 공인 심판 5경기 운영</h2>
   <b>기회 및 가설</b>: 총 5경기를 직접 심판을 고용해 경기를 진행하고, 경기 직후 만족도 평가 시행 <br/>
-  <b>실행</b>: 대한축구협회 공인 심판 2명 섭외(2급, 4급). 2시간 동안 경기 후 각 팀에 대한 실력 평가 부탁드림 <br/>
+  <b>실행</b>: 대한축구협회 공인 심판 2명 섭외(2급, 4급). 2시간 동안 경기 후 각 팀에 대한 실력 평가 요청 <br/>
   <b>결과 및 피드백</b>: 심판에 따라 만족도가 차이가 크고, 모든 팀이 돈을 낼 만큼의 서비스는 아니라고 응답. 또한 대한축구협회 소속 심판은 공인 경기가 아니면 심판을 통한 수익 행위가 금지. 경기 과열 예방 효과가 있어 나쁘지 않았단 의견도 존재<br/>
   <b>회고</b>: 심판 수익 행위 제약 때문에 솔루션 실행은 어렵다고 판단. 또한 심판을 섭외하는 과정이 매우 힘듦. 마지막으로 비즈니스 모델을 돌릴만한 유저들의 지불 의향도 없다고 결론 냄 <br/>
 </div>
@@ -111,7 +111,7 @@ permalink: /experience/apro/
   <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; font-size: medium">
     <h3 style="margin-top: 0;">팀 구성</h3>
     <p style="color: #666; font-size: large">팀원 4명</p>
-    - 기획 4(팀원 다같이 기획) <br/>
+    - 기획 전원 참여 <br/>
     - 개발 1 <br/>
     - 디자인 1 <br/>
   </div>
