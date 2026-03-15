@@ -49,14 +49,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile-image.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  지난 2년간 학생 창업을 시작으로 2개의 스타트업에서 개발자로 일하며 MAU 1000명 이상의 서비스를 운영해 본 경험이 있는 연쇄 창업가입니다.
+  저는 '실전을 통해 성장하는 개발자' 이자, 학생 창업으로 1년간 서비스를 직접 운영한 '실행하는 창업가' 입니다. 단순히 기능을 구현하는 것을 넘어, 데이터를 분석하고 유저와 직접 소통하며 필요한 것을 스스로 정의하고 만들어가는 과정에서 가장 큰 즐거움을 느낍니다.
   
-  JavaScript를 기반으로 한 프레임워크들을 활용하여 웹 & 앱 프론트엔드를 구축해 본 경험이 있으며, 
-  Google-Analytics, Mixpanel, Datadog등을 활용하여 데이터를 수집, 분석하고 이를 활용해 필요한 지표들을 개선했습니다.
+  특정 스택에 얽매이지 않고, 문제 해결에 가장 적합한 도구를 선택하는 엔지니어를 지향합니다. React Native 기반의 앱 개발부터 AWS 서버리스 설계, 네이티브 모듈 구현까지, 필요한 기술이라면 빠르게 습득해 실전에 적용해 왔습니다. 목표를 위해 필요한 일이라면 무엇이든 도전하며, 시행착오를 성장의 발판으로 삼는 태도를 지녔습니다.
   
-  항상 비즈니스를 우선시하며, 고객의 니즈를 파악하고 그것을 어떻게 해결할지 고민하는 것을 좋아하는 개발자입니다.
-  데이터를 기반으로 KPI를 개선하고, 고객과 소통하여 pain point를 찾아내 필요한 기능을 스스로 동기부여 하며 개발할 때 가장 큰 즐거움을 느낍니다. 
-
+  창업 부전공을 통해 아이디어 발굴부터 고객 인터뷰, 데이터 기반 검증까지 창업의 전 과정을 경험했습니다. 이 과정에서 개발자로서 "무엇을 만들 것인가" 를 스스로 정의하는 힘을 길렀고, 기능 하나를 개발할 때도 고객의 pain point에서 출발하고 데이터로 효과를 검증하는 것을 자연스러운 업무 흐름으로 체화하고 있습니다.
 
 content:
   - title: Experience - Software Engineer
@@ -77,7 +74,6 @@ content:
           아이디어 기획과 MVP 출시부터 시작하여 유저 피드백을 바탕으로 매주 2~3개의 기능 구현/수정 사항을 배포
         description: | # this will include new lines to allow paragraphs
           - <mark>시드투자 1억원</mark> - 코코네 one
-          - <mark>MAU 1000명 이상, 월간 매출 300만원 이상 달성</mark>
           - <mark>KBS/EBS</mark> 뉴스 방영
           - <mark>학생창업유망팀 300+</mark> 선정
           - <mark>NextRise 2024</mark> 참가 - <mark>모의투자 2등</mark>
@@ -88,18 +84,13 @@ content:
           → Datadog Funnel Analysis & Mixpanel 활용하여 가입 이탈 개선, **가입 전환율 30% -> 65% 개선**
           
           **EAS update(Code push) 구현** 및 업데이트 옵션 세분화 <br/>
-          → build & 심사 과정 **3~4일** -> 배포까지 **10분**으로 단축
         
           EAS, Sendbird의 **foreground**, **background** **알림 핸들링**
           
-          **Expo SDK version migration** 작업
+          **Expo SDK version migration** 작업. SDK 50 -> SDK 52
           
-          **JWT 인증**, **자동 로그인** 구현 <br/>
-
           React-Native를 이용한 **Android & iOS 인앱 결제** 구현 - **소모품**, **구독 상품**
           
-          Native navigation 스택 구성 및 이동 구현
-
           **서버리스 마케팅 어트리뷰션 시스템** 구축 <br/>
           → **AWS Lambda + API Gateway** 기반 UTM 파라미터 자동 수집 시스템 개발 <br/>
           → 마케팅 채널별 전환율 대시보드 구축으로 **광고 효율 개선에 기여**
@@ -131,7 +122,7 @@ content:
       - layout: left
         # border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-        title: 성균관대학교 창의혁신 DNA 산학협력 프로젝트 & 공학페스티벌
+        title: 창의혁신 DNA 산학협력 프로젝트
         sub_title: 팀 프로젝트
         caption: 2023.06 ~ 2023.11
 #        link: /projects/companion-plant/
@@ -150,14 +141,8 @@ content:
           - 2023 창의혁신 DNA 산학협력 팀 프로젝트 <mark>은상</mark>
           - 2023 성균관대 컨소시엄 창의적 종합설계 경진대회 <mark>은상</mark> 
           
-          라즈베리파이와 android를 사용하여 반려 식물의 상태를 파악하고 교감을 도와주는 프로젝트를 진행했습니다.
-          
-          온도, 습도, 조도 등 다양한 센서들을 통해 스마트폰 앱에서 **식물의 상태를 파악**할 수 있고, 화분 전면 디스플레이로도 식물의 상태(더움, 추움, 수분 부족, 좋음 등)를 나타내어 **식물이 실제로 감정을 표현하는 느낌으로 구현**했습니다.
-          
-          전용 화분에는 **카메라**가 있어 사람이 다가오거나 특정 행동을 취하면 디스플레이가 바뀌며 **식물과 상호작용을 하는 느낌**을 주었습니다.
-          또한 카메라로 **qr 코드를 읽혀 스마트폰과 화분(식물)을 연결**할 수 있습니다.
-          
-          openCV를 사용하여 안면 인식 시스템을 구현, python으로 라즈베리파이에 백엔드 서버를 구축하여 데이터 수집과 전송을 구현했습니다.
+          온도·습도·조도 등 다양한 센서를 탑재한 라즈베리파이 화분, Android 앱, Node.js 서버를 연동한 IoT 프로젝트입니다. 
+          센서 데이터를 앱에서 실시간으로 확인할 수 있고, 카메라와 OpenCV로 사용자를 인식해 화분 디스플레이가 반응하도록 구현하여 식물과 교감하는 경험을 만들었습니다.
 
       - layout: left
         title: Naver Cafe Video Downloader
@@ -178,11 +163,8 @@ content:
           - <mark>평점 4.67(27개)</mark>
           - <mark>Github Star 6개</mark>
           
-          기존 개발자 도구(f12)를 사용하여 번거롭고 귀찮게 네이버 카페에 올라온 동영상을 다운받아야만 하는 문제를 확장 프로그램으로 해결했습니다.
-          
-          한 게시물에 있는 모든 동영상을 원하는 화질을 선택하여 다운로드 할 수 있도록 구현하였습니다. 또한 탭마다 독립적으로 작동하도록 만들었습니다.
-          
-          Vanilla Javascript로 작성하였으며 추가적인 라이브러리 없이 네이버 api와 네트워크만을 분석하여 구현했습니다.
+          개발자 도구(F12)를 통해서만 다운로드할 수 있었던 네이버 카페 동영상을 누구나 쉽게 저장할 수 있도록 만든 크롬 확장프로그램입니다. 
+          외부 라이브러리 없이 Vanilla JavaScript만으로 네이버 API와 네트워크를 직접 분석하여 구현했으며, 화질 선택과 탭별 독립 동작을 지원합니다.
 
       - layout: left
         title: APRO - 조기축구 실력 맞춤 매칭 플랫폼
@@ -197,13 +179,11 @@ content:
 
           ### 주요 업무
 
-          아이디어 발굴 및 검증
-
-          현장에 나가 직접 고객과 인터뷰, 피드백 수렴
-
-          사업계획서 작성
+          조기축구 동호인들이 실력이 맞는 상대를 찾기 어렵다는 문제를 발견하고, 직접 창업에 도전한 프로젝트입니다. 
+          아이디어를 제품으로 만들기 전, 가설 설정 → 검증 → 실행 → 피드백 의 과정을 반복하며 시장과 고객을 먼저 이해하려 했습니다.
           
-          React + Node.js 랜딩페이지 구축
+          랜딩페이지를 활용한 가짜 문 프리토타이핑으로 접속자 500명 중 44.7%의 응답을 이끌어내 문제의 실재를 확인했고, 공인 심판을 직접 섭외해 5경기를 실험하고 약 60팀을 현장 인터뷰하며 솔루션을 검증했습니다. 
+          결과적으로 비즈니스 모델의 한계를 발견하고 프로젝트를 마무리했지만, 이 과정에서 고객이 원하는 것을 데이터와 현장으로 검증하는 태도를 체화했습니다.
 
   - title: Skills
     layout: text
@@ -212,7 +192,9 @@ content:
         <span class="skill-chip">TypeScript</span>
         <span class="skill-chip">React</span>
         <span class="skill-chip">React-Native</span>
+        <span class="skill-chip">Expo</span>
         <span class="skill-chip">CSS</span>
+        <span class="skill-chip">AWS</span>
       </div>
 
   - title: Education
@@ -230,7 +212,7 @@ content:
           
           주전공: AI•소프트웨어학부(소프트웨어전공)
           
-          부전공: 창업대학 스타트업칼리지(2023.09 ~ 2024.12)
+          부전공: 창업대학 스타트업칼리지 코코네스쿨
 
   - title: Certification
     layout: text
@@ -240,20 +222,6 @@ content:
       
       - <mark>일본어 JLPT N2</mark><br/>
         취득년월: 2023.01
-      
-      - <mark>전산회계 1급</mark><br/>
-        취득년월: 2020.09
-      
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      대학교에서 부전공으로 창업학에 대해 배우고 난 뒤, 학생 창업으로 창업이라는 새로운 세계에서 성장해 왔습니다.
-      
-      개발적으로 깔끔하고 예술적인 코드를 지향하기보다는, 빠르고 오류 없이 비용이 최대한 적은 방식을 고려하여 설계하고 여러 번의 테스트를 통해 고객이 원하는 제품을 만들어 내는 일을 지향합니다.
-      
-      AI 도구들을 열린 사고방식으로 활용하는 것을 좋아합니다. Claude code, codex(chat GPT), GEMINI 등 여러 인공지능 시스템을 비교해 가며 사용하며 그때그때 성능이 좋은 것을 사용합니다. Claude skill 등 새로운 툴들도 찾아보고 활용하기 위해 노력하고 있습니다.  
-      
-      한 가지 언어에만 얽매이지 않고 필요하다면 다른 언어 혹은 프레임워크를 적극적으로 활용하려고 노력합니다.
 
 # Footer
 footer_show_references: true
