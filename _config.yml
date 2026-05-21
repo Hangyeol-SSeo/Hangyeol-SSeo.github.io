@@ -20,7 +20,7 @@ darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  Hangyeol-SSeo
+github_username: Hangyeol-SSeo
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -35,9 +35,9 @@ linkedin_username: 한결-서-0226a3308
 
 # Additional icon links
 additional_links:
-- title: English Resume
-  icon: fas fa-globe
-  url: /en/
+  - title: English Resume
+    icon: fas fa-globe
+    url: /en/
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,9 +50,9 @@ additional_links:
 about_profile_image: images/profile-image.jpeg
 about_content: | # this will include new lines to allow paragraphs
   저는 '실전을 통해 성장하는 개발자' 이자, 학생 창업으로 1년간 서비스를 직접 운영한 '실행하는 창업가' 입니다. 단순히 기능을 구현하는 것을 넘어, 데이터를 분석하고 유저와 직접 소통하며 필요한 것을 스스로 정의하고 만들어가는 과정에서 가장 큰 즐거움을 느낍니다.
-  
+
   특정 스택에 얽매이지 않고, 문제 해결에 가장 적합한 도구를 선택하는 엔지니어를 지향합니다. React Native 기반의 앱 개발부터 AWS 서버리스 설계, 네이티브 모듈 구현까지, 필요한 기술이라면 빠르게 습득해 실전에 적용해 왔습니다. 목표를 위해 필요한 일이라면 무엇이든 도전하며, 시행착오를 성장의 발판으로 삼는 태도를 지녔습니다.
-  
+
   창업 부전공을 통해 아이디어 발굴부터 고객 인터뷰, 데이터 기반 검증까지 창업의 전 과정을 경험했습니다. 이 과정에서 개발자로서 "무엇을 만들 것인가" 를 스스로 정의하는 힘을 길렀고, 기능 하나를 개발할 때도 고객의 pain point에서 출발하고 데이터로 효과를 검증하는 것을 자연스러운 업무 흐름으로 체화하고 있습니다.
 
 content:
@@ -60,16 +60,16 @@ content:
     layout: list
     content:
       - layout: left
-#        border: weak
+        #        border: weak
         title: 북블라(BookBla)
         sub_title: 소프트웨어 엔지니어
         caption: 2024.08 ~ 2025.09
         link: /experience/bookbla/
         link_text: 상세 정보 →
-#        additional_links:
-#          - title: 북블라 웹사이트
-#            icon: fas fa-globe
-#            url: https://www.bookbla.com/
+        #        additional_links:
+        #          - title: 북블라 웹사이트
+        #            icon: fas fa-globe
+        #            url: https://www.bookbla.com/
         quote: >
           아이디어 기획과 MVP 출시부터 시작하여 유저 피드백을 바탕으로 매주 2~3개의 기능 구현/수정 사항을 배포
         description: | # this will include new lines to allow paragraphs
@@ -82,15 +82,15 @@ content:
 
           *Sendbird*, *Datadog*, *Firebase(GA4)*, *Mixpanel*, *Meta pixel*등 **SaaS 도입** <br/>
           → Datadog Funnel Analysis & Mixpanel 활용하여 가입 이탈 개선, **가입 전환율 30% -> 65% 개선**
-          
+
           **EAS update(Code push) 구현** 및 업데이트 옵션 세분화 <br/>
-        
+
           EAS, Sendbird의 **foreground**, **background** **알림 핸들링**
-          
+
           **Expo SDK version migration** 작업. SDK 50 -> SDK 52
-          
+
           React-Native를 이용한 **Android & iOS 인앱 결제** 구현 - **소모품**, **구독 상품**
-          
+
           **서버리스 마케팅 어트리뷰션 시스템** 구축 <br/>
           → **AWS Lambda + API Gateway** 기반 UTM 파라미터 자동 수집 시스템 개발 <br/>
           → 마케팅 채널별 전환율 대시보드 구축으로 **광고 효율 개선에 기여**
@@ -101,19 +101,26 @@ content:
         caption: 2025.12 ~
         link: /experience/1minute/
         link_text: 상세 정보 →
+        additional_links:
+          - title: Android
+            icon: fab fa-android
+            url: https://play.google.com/store/apps/details?id=com.maummoum.oneminute&hl=ko
+          # - title: iOS
+          #   icon: fab fa-apple
+          #   url: https://play.google.com/store/apps/details?id=com.maummoum.oneminute&hl=ko
         quote: >
-          React Native + React를 사용한 하이브리드 앱 MVP 제작 및 Frontend ci/cd 구축
+          React Native + React를 사용한 하이브리드 앱 MVP 제작 및 Frontenㄴd ci/cd 구축
         description: | # this will include new lines to allow paragraphs
           - <mark>삼성전자 직원들 대상 초기 오픈 예정</mark>
 
           ### 주요 업무
-          
+
           Web - React Native webview간 **bridge 통신** 구현
-          
+
           EAS(Expo Application Service) build & store submit 자동화 구축
-          
+
           **생체인증** (iOS Face id, Android 지문 인증) 구현
-          
+
           **Expo-Modules-Api**를 사용해 **Swift, Kotlin** 코드 작성 및 네이티브 모듈 구현
 
   - title: Projects - Individual/Team
@@ -121,12 +128,12 @@ content:
     content:
       - layout: left
         # border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
+        # other value (or no value) means no border will be displayed
         title: 창의혁신 DNA 산학협력 프로젝트
         sub_title: 팀 프로젝트
         caption: 2023.06 ~ 2023.11
-#        link: /projects/companion-plant/
-#        link_text: 프로젝트 세부 정보 →
+        #        link: /projects/companion-plant/
+        #        link_text: 프로젝트 세부 정보 →
         additional_links:
           - title: 공학페스티벌
             icon: fas fa-globe
@@ -140,15 +147,15 @@ content:
           - 2023 가천대학교 창의적종합설계 경진대회 <mark>금상</mark>
           - 2023 창의혁신 DNA 산학협력 팀 프로젝트 <mark>은상</mark>
           - 2023 성균관대 컨소시엄 창의적 종합설계 경진대회 <mark>은상</mark> 
-          
+
           온도·습도·조도 등 다양한 센서를 탑재한 라즈베리파이 화분, Android 앱, Node.js 서버를 연동한 IoT 프로젝트입니다. 
           센서 데이터를 앱에서 실시간으로 확인할 수 있고, 카메라와 OpenCV로 사용자를 인식해 화분 디스플레이가 반응하도록 구현하여 식물과 교감하는 경험을 만들었습니다.
 
       - layout: left
         title: Naver Cafe Video Downloader
         sub_title: 개인 프로젝트
-#        link: /projects/naver-cafe-downloader/
-#        link_text: 프로젝트 세부 정보 →
+        #        link: /projects/naver-cafe-downloader/
+        #        link_text: 프로젝트 세부 정보 →
         additional_links:
           - title: Chrome Web Store
             icon: fab fa-chrome
@@ -162,7 +169,7 @@ content:
           - <mark>WAU(주간 사용자) 23700</mark> 
           - <mark>평점 4.67(27개)</mark>
           - <mark>Github Star 6개</mark>
-          
+
           개발자 도구(F12)를 통해서만 다운로드할 수 있었던 네이버 카페 동영상을 누구나 쉽게 저장할 수 있도록 만든 크롬 확장프로그램입니다. 
           외부 라이브러리 없이 Vanilla JavaScript만으로 네이버 API와 네트워크를 직접 분석하여 구현했으며, 화질 선택과 탭별 독립 동작을 지원합니다.
 
@@ -181,7 +188,7 @@ content:
 
           조기축구 동호인들이 실력이 맞는 상대를 찾기 어렵다는 문제를 발견하고, 직접 창업에 도전한 프로젝트입니다. 
           아이디어를 제품으로 만들기 전, 가설 설정 → 검증 → 실행 → 피드백 의 과정을 반복하며 시장과 고객을 먼저 이해하려 했습니다.
-          
+
           랜딩페이지를 활용한 가짜 문 프리토타이핑으로 접속자 500명 중 44.7%의 응답을 이끌어내 문제의 실재를 확인했고, 공인 심판을 직접 섭외해 5경기를 실험하고 약 60팀을 현장 인터뷰하며 솔루션을 검증했습니다. 
           결과적으로 비즈니스 모델의 한계를 발견하고 프로젝트를 마무리했지만, 이 과정에서 고객이 원하는 것을 데이터와 현장으로 검증하는 태도를 체화했습니다.
 
@@ -209,17 +216,20 @@ content:
         description: | # this will include new lines to allow paragraphs
           - <mark>취득학점: 145/120</mark>
           - <mark>전체성적: 3.98/4.5</mark>
-          
+
           주전공: AI•소프트웨어학부(소프트웨어전공)
-          
+
           부전공: 창업대학 스타트업칼리지 코코네스쿨
 
   - title: Certification
     layout: text
     content: |
+      - <mark>투자자산운용사</mark><br/>
+        취득년월: 2026.05
+
       - <mark>영어 TOEIC 840</mark><br/>
         취득년월: 2026.01
-      
+
       - <mark>일본어 JLPT N2</mark><br/>
         취득년월: 2023.01
 
@@ -236,17 +246,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
