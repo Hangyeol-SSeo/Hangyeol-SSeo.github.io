@@ -71,7 +71,7 @@ content:
         #            icon: fas fa-globe
         #            url: https://www.bookbla.com/
         quote: >
-          아이디어 기획과 MVP 출시부터 시작하여 유저 피드백을 바탕으로 매주 2~3개의 기능 구현/수정 사항을 배포
+          책을 통해 가치관을 표현하고, 가치관을 통해 진중한 만남을 도와주는 서비스
         description: | # this will include new lines to allow paragraphs
           - <mark>시드투자 1억원</mark> - 코코네 one
           - <mark>KBS/EBS</mark> 뉴스 방영
@@ -98,7 +98,7 @@ content:
       - layout: left
         title: 1minute
         sub_title: 프론트엔드 개발자
-        caption: 2025.12 ~
+        caption: 2025.12 ~ 2026.03
         link: /experience/1minute/
         link_text: 상세 정보 →
         additional_links:
@@ -109,9 +109,8 @@ content:
           #   icon: fab fa-apple
           #   url: https://play.google.com/store/apps/details?id=com.maummoum.oneminute&hl=ko
         quote: >
-          React Native + React를 사용한 하이브리드 앱 MVP 제작 및 Frontenㄴd ci/cd 구축
+          HRV / MWS 검사를 통해 고객의 상태를 측정하고 분석하여, 마음 건강을 챙겨주는 AI assistant 앱
         description: | # this will include new lines to allow paragraphs
-          - <mark>삼성전자 직원들 대상 초기 오픈 예정</mark>
 
           ### 주요 업무
 
@@ -122,6 +121,8 @@ content:
           **생체인증** (iOS Face id, Android 지문 인증) 구현
 
           **Expo-Modules-Api**를 사용해 **Swift, Kotlin** 코드 작성 및 네이티브 모듈 구현
+          
+          **Github workflow**를 사용한 **CI/CD pipeline 구축**
 
   - title: Projects - Individual/Team
     layout: list # Type of content section (list/text)
@@ -180,7 +181,7 @@ content:
         link: /experience/apro/
         link_text: 상세 정보 →
         quote: >
-          가설설정, 아이디어 검증, 실행, 피드백까지 창업 과정 flow를 경험. 랜딩페이지 배포를 위한 서버 구축 및 로그 수집.
+          조기축구 동호인들이 본인과 비슷한 실력의 팀과 더 재밌는 경기를 할 수 있게 도와주는 매칭 서비스
         description: | # this will include new lines to allow paragraphs
           - 2024 <mark>안산대학교 아이디어 사업화 지원사업 선정</mark>
 
